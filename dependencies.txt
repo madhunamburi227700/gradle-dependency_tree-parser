@@ -1,0 +1,2623 @@
+> Task :igor-core:dependencies
+
+------------------------------------------------------------
+Project ':igor-core'
+------------------------------------------------------------
+
+annotationProcessor - Annotation processors and their dependencies for source set 'main'.
++--- io.spinnaker.kork:kork-bom:7.254.0
+|    \--- org.projectlombok:lombok:1.18.30 (c)
+\--- org.projectlombok:lombok -> 1.18.30
+
+api - API dependencies for source set 'main'. (n)
+No dependencies
+
+apiElements - API elements for main. (n)
+No dependencies
+
+archives - Configuration for archive artifacts. (n)
+No dependencies
+
+compileClasspath - Compile classpath for source set 'main'.
++--- org.projectlombok:lombok -> 1.18.30
++--- io.spinnaker.kork:kork-bom:7.254.0
+|    +--- org.apache.groovy:groovy:4.0.15 (c)
+|    +--- javax.validation:validation-api:2.0.1.Final (c)
+|    +--- org.projectlombok:lombok:1.18.30 (c)
+|    +--- org.springframework.boot:spring-boot-starter-actuator:2.7.18 (c)
+|    +--- com.squareup.retrofit2:converter-jackson:2.8.1 (c)
+|    +--- com.squareup.retrofit2:retrofit:2.8.1 (c)
+|    +--- net.logstash.logback:logstash-logback-encoder:4.11 (c)
+|    +--- io.spinnaker.kork:kork-artifacts:7.254.0 (c)
+|    +--- io.spinnaker.kork:kork-core:7.254.0 (c)
+|    +--- io.spinnaker.kork:kork-jedis:7.254.0 (c)
+|    +--- org.springframework.security:spring-security-core:5.7.11 (c)
+|    +--- org.springframework.boot:spring-boot-starter:2.7.18 (c)
+|    +--- org.springframework.boot:spring-boot-actuator-autoconfigure:2.7.18 (c)
+|    +--- io.micrometer:micrometer-core:1.9.17 (c)
+|    +--- com.fasterxml.jackson.core:jackson-databind:2.13.5 (c)
+|    +--- com.squareup.okhttp3:okhttp:4.9.3 (c)
+|    +--- ch.qos.logback:logback-core:1.2.13 (c)
+|    +--- software.amazon.awssdk:s3:2.23.7 (c)
+|    +--- software.amazon.awssdk:sts:2.23.7 (c)
+|    +--- com.hubspot.jinjava:jinjava:2.7.1 (c)
+|    +--- io.spinnaker.kork:kork-api:7.254.0 (c)
+|    +--- io.spinnaker.kork:kork-annotations:7.254.0 (c)
+|    +--- io.spinnaker.kork:kork-exceptions:7.254.0 (c)
+|    +--- org.springframework.boot:spring-boot-autoconfigure:2.7.18 (c)
+|    +--- org.springframework.boot:spring-boot-starter-aop:2.7.18 (c)
+|    +--- com.netflix.spectator:spectator-api:1.0.6 (c)
+|    +--- com.google.code.findbugs:jsr305:3.0.2 (c)
+|    +--- io.github.resilience4j:resilience4j-annotations:1.7.0 (c)
+|    +--- io.github.resilience4j:resilience4j-retry:1.7.0 (c)
+|    +--- io.github.resilience4j:resilience4j-spring-boot2:1.7.0 (c)
+|    +--- redis.clients:jedis:3.8.0 (c)
+|    +--- org.springframework.security:spring-security-crypto:5.7.11 (c)
+|    +--- org.springframework:spring-aop:5.3.31 (c)
+|    +--- org.springframework:spring-beans:5.3.31 (c)
+|    +--- org.springframework:spring-context:5.3.31 (c)
+|    +--- org.springframework:spring-core:5.3.31 (c)
+|    +--- org.springframework:spring-expression:5.3.31 (c)
+|    +--- org.springframework.boot:spring-boot:2.7.18 (c)
+|    +--- org.springframework.boot:spring-boot-starter-logging:2.7.18 (c)
+|    +--- jakarta.annotation:jakarta.annotation-api:1.3.5 (c)
+|    +--- org.yaml:snakeyaml:1.31 (c)
+|    +--- org.springframework.boot:spring-boot-actuator:2.7.18 (c)
+|    +--- com.fasterxml.jackson.core:jackson-annotations:2.13.5 (c)
+|    +--- com.fasterxml.jackson.core:jackson-core:2.13.5 (c)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.6.21 (c)
+|    +--- software.amazon.awssdk:aws-xml-protocol:2.23.7 (c)
+|    +--- software.amazon.awssdk:protocol-core:2.23.7 (c)
+|    +--- software.amazon.awssdk:arns:2.23.7 (c)
+|    +--- software.amazon.awssdk:profiles:2.23.7 (c)
+|    +--- software.amazon.awssdk:http-auth:2.23.7 (c)
+|    +--- software.amazon.awssdk:identity-spi:2.23.7 (c)
+|    +--- software.amazon.awssdk:http-auth-spi:2.23.7 (c)
+|    +--- software.amazon.awssdk:http-auth-aws:2.23.7 (c)
+|    +--- software.amazon.awssdk:checksums:2.23.7 (c)
+|    +--- software.amazon.awssdk:checksums-spi:2.23.7 (c)
+|    +--- software.amazon.awssdk:sdk-core:2.23.7 (c)
+|    +--- software.amazon.awssdk:auth:2.23.7 (c)
+|    +--- software.amazon.awssdk:http-client-spi:2.23.7 (c)
+|    +--- software.amazon.awssdk:regions:2.23.7 (c)
+|    +--- software.amazon.awssdk:annotations:2.23.7 (c)
+|    +--- software.amazon.awssdk:utils:2.23.7 (c)
+|    +--- software.amazon.awssdk:aws-core:2.23.7 (c)
+|    +--- software.amazon.awssdk:metrics-spi:2.23.7 (c)
+|    +--- software.amazon.awssdk:json-utils:2.23.7 (c)
+|    +--- software.amazon.awssdk:aws-query-protocol:2.23.7 (c)
+|    +--- org.slf4j:slf4j-api:1.7.36 (c)
+|    +--- com.google.guava:guava:33.0.0-jre (c)
+|    +--- org.apache.commons:commons-lang3:3.12.0 (c)
+|    +--- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.13.5 (c)
+|    +--- io.spinnaker.kork:kork-plugins-api:7.254.0 (c)
+|    +--- org.aspectj:aspectjweaver:1.9.7 (c)
+|    +--- io.github.resilience4j:resilience4j-core:1.7.0 (c)
+|    +--- io.github.resilience4j:resilience4j-spring:1.7.0 (c)
+|    +--- io.github.resilience4j:resilience4j-micrometer:1.7.0 (c)
+|    +--- org.apache.commons:commons-pool2:2.11.1 (c)
+|    +--- org.springframework:spring-jcl:5.3.31 (c)
+|    +--- ch.qos.logback:logback-classic:1.2.13 (c)
+|    +--- org.apache.logging.log4j:log4j-to-slf4j:2.20.0 (c)
+|    +--- org.slf4j:jul-to-slf4j:1.7.36 (c)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.6.21 (c)
+|    +--- org.jetbrains:annotations:19.0.0 (c)
+|    +--- org.reactivestreams:reactive-streams:1.0.4 (c)
+|    +--- software.amazon.awssdk:third-party-jackson-core:2.23.7 (c)
+|    +--- javax.annotation:javax.annotation-api:1.3.2 (c)
+|    +--- org.pf4j:pf4j:3.10.0 (c)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21 (c)
+|    +--- io.github.resilience4j:resilience4j-consumer:1.7.0 (c)
+|    +--- org.apache.logging.log4j:log4j-api:2.20.0 (c)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.21 (c)
+|    +--- io.github.resilience4j:resilience4j-circuitbreaker:1.7.0 (c)
+|    +--- io.github.resilience4j:resilience4j-ratelimiter:1.7.0 (c)
+|    +--- io.github.resilience4j:resilience4j-bulkhead:1.7.0 (c)
+|    +--- io.github.resilience4j:resilience4j-timelimiter:1.7.0 (c)
+|    \--- io.github.resilience4j:resilience4j-circularbuffer:1.7.0 (c)
++--- org.springframework.boot:spring-boot-starter-actuator -> 2.7.18
+|    +--- org.springframework.boot:spring-boot-starter:2.7.18
+|    |    +--- org.springframework.boot:spring-boot:2.7.18
+|    |    |    +--- org.springframework:spring-core:5.3.31
+|    |    |    |    \--- org.springframework:spring-jcl:5.3.31
+|    |    |    \--- org.springframework:spring-context:5.3.31
+|    |    |         +--- org.springframework:spring-aop:5.3.31
+|    |    |         |    +--- org.springframework:spring-beans:5.3.31
+|    |    |         |    |    \--- org.springframework:spring-core:5.3.31 (*)
+|    |    |         |    \--- org.springframework:spring-core:5.3.31 (*)
+|    |    |         +--- org.springframework:spring-beans:5.3.31 (*)
+|    |    |         +--- org.springframework:spring-core:5.3.31 (*)
+|    |    |         \--- org.springframework:spring-expression:5.3.31
+|    |    |              \--- org.springframework:spring-core:5.3.31 (*)
+|    |    +--- org.springframework.boot:spring-boot-autoconfigure:2.7.18
+|    |    |    \--- org.springframework.boot:spring-boot:2.7.18 (*)
+|    |    +--- org.springframework.boot:spring-boot-starter-logging:2.7.18
+|    |    |    +--- ch.qos.logback:logback-classic:1.2.12 -> 1.2.13
+|    |    |    |    +--- ch.qos.logback:logback-core:1.2.13
+|    |    |    |    \--- org.slf4j:slf4j-api:1.7.32 -> 1.7.36
+|    |    |    +--- org.apache.logging.log4j:log4j-to-slf4j:2.17.2 -> 2.20.0
+|    |    |    |    +--- org.apache.logging.log4j:log4j-api:2.20.0
+|    |    |    |    \--- org.slf4j:slf4j-api:1.7.36
+|    |    |    \--- org.slf4j:jul-to-slf4j:1.7.36
+|    |    |         \--- org.slf4j:slf4j-api:1.7.36
+|    |    +--- jakarta.annotation:jakarta.annotation-api:1.3.5
+|    |    +--- org.springframework:spring-core:5.3.31 (*)
+|    |    \--- org.yaml:snakeyaml:1.30 -> 1.31
+|    +--- org.springframework.boot:spring-boot-actuator-autoconfigure:2.7.18
+|    |    +--- org.springframework.boot:spring-boot-actuator:2.7.18
+|    |    |    \--- org.springframework.boot:spring-boot:2.7.18 (*)
+|    |    +--- org.springframework.boot:spring-boot:2.7.18 (*)
+|    |    \--- org.springframework.boot:spring-boot-autoconfigure:2.7.18 (*)
+|    \--- io.micrometer:micrometer-core:1.9.17
+|         \--- org.hdrhistogram:HdrHistogram:2.1.12
++--- net.logstash.logback:logstash-logback-encoder -> 4.11
+|    +--- ch.qos.logback:logback-core:1.2.3 -> 1.2.13
+|    \--- com.fasterxml.jackson.core:jackson-databind:2.8.9 -> 2.13.5
+|         +--- com.fasterxml.jackson.core:jackson-annotations:2.13.5
+|         |    \--- com.fasterxml.jackson:jackson-bom:2.13.5
+|         |         +--- com.fasterxml.jackson.core:jackson-annotations:2.13.5 (c)
+|         |         +--- com.fasterxml.jackson.core:jackson-core:2.13.5 (c)
+|         |         +--- com.fasterxml.jackson.core:jackson-databind:2.13.5 (c)
+|         |         \--- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.13.5 (c)
+|         +--- com.fasterxml.jackson.core:jackson-core:2.13.5
+|         |    \--- com.fasterxml.jackson:jackson-bom:2.13.5 (*)
+|         \--- com.fasterxml.jackson:jackson-bom:2.13.5 (*)
++--- org.apache.groovy:groovy -> 4.0.15
+|    \--- org.apache.groovy:groovy-bom:4.0.15
+|         \--- org.apache.groovy:groovy:4.0.15 (c)
++--- io.spinnaker.kork:kork-artifacts -> 7.254.0
+|    +--- software.amazon.awssdk:s3:2.23.7
+|    |    +--- software.amazon.awssdk:aws-xml-protocol:2.23.7
+|    |    |    +--- software.amazon.awssdk:aws-query-protocol:2.23.7
+|    |    |    |    +--- software.amazon.awssdk:protocol-core:2.23.7
+|    |    |    |    |    +--- software.amazon.awssdk:sdk-core:2.23.7
+|    |    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    +--- software.amazon.awssdk:http-client-spi:2.23.7
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7
+|    |    |    |    |    |    |    |    +--- org.reactivestreams:reactive-streams:1.0.4
+|    |    |    |    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    |    |    \--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:metrics-spi:2.23.7
+|    |    |    |    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    |    |    \--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    |    |    \--- org.reactivestreams:reactive-streams:1.0.4
+|    |    |    |    |    |    +--- software.amazon.awssdk:metrics-spi:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:endpoints-spi:2.23.7
+|    |    |    |    |    |    |    \--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    +--- software.amazon.awssdk:http-auth-spi:2.23.7
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |    |    |    |    |    |    +--- org.reactivestreams:reactive-streams:1.0.4
+|    |    |    |    |    |    |    \--- software.amazon.awssdk:identity-spi:2.23.7
+|    |    |    |    |    |    |         +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    |         \--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:http-auth-aws:2.23.7
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:identity-spi:2.23.7 (*)
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:http-auth-spi:2.23.7 (*)
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:checksums-spi:2.23.7
+|    |    |    |    |    |    |    |    \--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    |    \--- software.amazon.awssdk:checksums:2.23.7
+|    |    |    |    |    |    |         +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    |         \--- software.amazon.awssdk:checksums-spi:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:checksums-spi:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:checksums:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:identity-spi:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:profiles:2.23.7
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    |    |    \--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    |    |    |    |    \--- org.reactivestreams:reactive-streams:1.0.4
+|    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    \--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |    |    |    +--- software.amazon.awssdk:aws-core:2.23.7
+|    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    +--- software.amazon.awssdk:regions:2.23.7
+|    |    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:sdk-core:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:profiles:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:json-utils:2.23.7
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    |    \--- software.amazon.awssdk:third-party-jackson-core:2.23.7
+|    |    |    |    |    |    \--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    |    |    |    +--- software.amazon.awssdk:auth:2.23.7
+|    |    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:sdk-core:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:identity-spi:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:regions:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:profiles:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:json-utils:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:http-auth-aws:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:http-auth:2.23.7
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:http-auth-spi:2.23.7 (*)
+|    |    |    |    |    |    |    \--- software.amazon.awssdk:identity-spi:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:http-auth-spi:2.23.7 (*)
+|    |    |    |    |    |    \--- software.amazon.eventstream:eventstream:1.0.1
+|    |    |    |    |    +--- software.amazon.awssdk:http-auth-spi:2.23.7 (*)
+|    |    |    |    |    +--- software.amazon.awssdk:identity-spi:2.23.7 (*)
+|    |    |    |    |    +--- software.amazon.awssdk:http-auth:2.23.7 (*)
+|    |    |    |    |    +--- software.amazon.awssdk:profiles:2.23.7 (*)
+|    |    |    |    |    +--- software.amazon.awssdk:sdk-core:2.23.7 (*)
+|    |    |    |    |    +--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |    |    |    |    +--- software.amazon.awssdk:metrics-spi:2.23.7 (*)
+|    |    |    |    |    +--- software.amazon.awssdk:endpoints-spi:2.23.7 (*)
+|    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    \--- software.amazon.eventstream:eventstream:1.0.1
+|    |    |    |    +--- software.amazon.awssdk:sdk-core:2.23.7 (*)
+|    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    +--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |    |    |    \--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    +--- software.amazon.awssdk:protocol-core:2.23.7 (*)
+|    |    |    +--- software.amazon.awssdk:aws-core:2.23.7 (*)
+|    |    |    +--- software.amazon.awssdk:sdk-core:2.23.7 (*)
+|    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    +--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |    |    \--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:protocol-core:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:arns:2.23.7
+|    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    \--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:profiles:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:crt-core:2.23.7
+|    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    \--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:http-auth:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:identity-spi:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:http-auth-spi:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:http-auth-aws:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:checksums:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:checksums-spi:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:sdk-core:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:auth:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:regions:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:aws-core:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:metrics-spi:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:json-utils:2.23.7 (*)
+|    |    \--- software.amazon.awssdk:endpoints-spi:2.23.7 (*)
+|    +--- software.amazon.awssdk:sts:2.23.7
+|    |    +--- software.amazon.awssdk:aws-query-protocol:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:protocol-core:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:profiles:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:http-auth-aws:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:sdk-core:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:auth:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:http-auth-spi:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:http-auth:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:identity-spi:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:regions:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:aws-core:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:metrics-spi:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:json-utils:2.23.7 (*)
+|    |    \--- software.amazon.awssdk:endpoints-spi:2.23.7 (*)
+|    \--- com.hubspot.jinjava:jinjava:2.7.1
+|         +--- org.slf4j:slf4j-api:1.7.25 -> 1.7.36
+|         +--- com.google.guava:guava:31.1-jre -> 33.0.0-jre
+|         |    +--- com.google.guava:failureaccess:1.0.2
+|         |    +--- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava
+|         |    +--- org.checkerframework:checker-qual:3.41.0
+|         |    +--- com.google.errorprone:error_prone_annotations:2.23.0
+|         |    \--- com.google.j2objc:j2objc-annotations:2.8
+|         +--- org.javassist:javassist:3.24.1-GA
+|         +--- com.google.re2j:re2j:1.2
+|         +--- org.apache.commons:commons-lang3:3.9 -> 3.12.0
+|         +--- commons-net:commons-net:3.9.0
+|         +--- com.googlecode.java-ipv6:java-ipv6:0.17
+|         +--- com.google.code.findbugs:annotations:3.0.1
+|         +--- com.fasterxml.jackson.core:jackson-annotations:2.14.0 -> 2.13.5 (*)
+|         +--- com.fasterxml.jackson.core:jackson-databind:2.14.0 -> 2.13.5 (*)
+|         +--- com.fasterxml.jackson.core:jackson-core:2.14.0 -> 2.13.5 (*)
+|         +--- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.14.0 -> 2.13.5
+|         |    +--- com.fasterxml.jackson.core:jackson-databind:2.13.5 (*)
+|         |    +--- org.yaml:snakeyaml:1.31
+|         |    +--- com.fasterxml.jackson.core:jackson-core:2.13.5 (*)
+|         |    \--- com.fasterxml.jackson:jackson-bom:2.13.5 (*)
+|         \--- ch.obermuhlner:big-math:2.0.0
++--- io.spinnaker.kork:kork-core -> 7.254.0
+|    +--- io.spinnaker.kork:kork-api:7.254.0
+|    |    \--- io.spinnaker.kork:kork-plugins-api:7.254.0
+|    |         +--- org.slf4j:slf4j-api:1.7.36
+|    |         +--- javax.annotation:javax.annotation-api:1.3.2
+|    |         +--- io.spinnaker.kork:kork-annotations:7.254.0
+|    |         |    \--- com.google.code.findbugs:jsr305:3.0.2
+|    |         +--- org.pf4j:pf4j:3.10.0
+|    |         |    +--- org.slf4j:slf4j-api:2.0.6 -> 1.7.36
+|    |         |    \--- com.github.zafarkhaja:java-semver:0.9.0
+|    |         \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21
+|    |              +--- org.jetbrains.kotlin:kotlin-stdlib:1.6.21
+|    |              |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.6.21
+|    |              |    \--- org.jetbrains:annotations:13.0 -> 19.0.0
+|    |              \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.21
+|    |                   \--- org.jetbrains.kotlin:kotlin-stdlib:1.6.21 (*)
+|    +--- io.spinnaker.kork:kork-annotations:7.254.0 (*)
+|    +--- io.spinnaker.kork:kork-exceptions:7.254.0
+|    |    \--- com.google.code.findbugs:jsr305:3.0.2
+|    +--- org.springframework.boot:spring-boot-autoconfigure:2.7.18 (*)
+|    +--- org.springframework.boot:spring-boot-starter-aop:2.7.18
+|    |    +--- org.springframework.boot:spring-boot-starter:2.7.18 (*)
+|    |    +--- org.springframework:spring-aop:5.3.31 (*)
+|    |    \--- org.aspectj:aspectjweaver:1.9.7
+|    +--- org.springframework.boot:spring-boot-starter-actuator:2.7.18 (*)
+|    +--- com.netflix.spectator:spectator-api:1.0.6
+|    +--- com.google.code.findbugs:jsr305:3.0.2
+|    +--- io.github.resilience4j:resilience4j-annotations:1.7.0
+|    |    +--- io.vavr:vavr:0.10.2
+|    |    |    \--- io.vavr:vavr-match:0.10.2
+|    |    \--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    +--- io.github.resilience4j:resilience4j-retry:1.7.0
+|    |    +--- io.vavr:vavr:0.10.2 (*)
+|    |    +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    \--- io.github.resilience4j:resilience4j-core:1.7.0
+|    |         +--- io.vavr:vavr:0.10.2 (*)
+|    |         \--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    \--- io.github.resilience4j:resilience4j-spring-boot2:1.7.0
+|         +--- io.vavr:vavr:0.10.2 (*)
+|         +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|         +--- io.github.resilience4j:resilience4j-spring:1.7.0
+|         |    +--- io.vavr:vavr:0.10.2 (*)
+|         |    +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|         |    +--- io.github.resilience4j:resilience4j-annotations:1.7.0 (*)
+|         |    +--- io.github.resilience4j:resilience4j-consumer:1.7.0
+|         |    |    +--- io.vavr:vavr:0.10.2 (*)
+|         |    |    +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|         |    |    +--- io.github.resilience4j:resilience4j-core:1.7.0 (*)
+|         |    |    \--- io.github.resilience4j:resilience4j-circularbuffer:1.7.0
+|         |    |         +--- io.vavr:vavr:0.10.2 (*)
+|         |    |         \--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|         |    \--- io.github.resilience4j:resilience4j-framework-common:1.7.0
+|         |         +--- io.vavr:vavr:0.10.2 (*)
+|         |         +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|         |         +--- io.github.resilience4j:resilience4j-core:1.7.0 (*)
+|         |         +--- io.github.resilience4j:resilience4j-circuitbreaker:1.7.0
+|         |         |    +--- io.vavr:vavr:0.10.2 (*)
+|         |         |    +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|         |         |    \--- io.github.resilience4j:resilience4j-core:1.7.0 (*)
+|         |         +--- io.github.resilience4j:resilience4j-ratelimiter:1.7.0
+|         |         |    +--- io.vavr:vavr:0.10.2 (*)
+|         |         |    +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|         |         |    \--- io.github.resilience4j:resilience4j-core:1.7.0 (*)
+|         |         +--- io.github.resilience4j:resilience4j-retry:1.7.0 (*)
+|         |         +--- io.github.resilience4j:resilience4j-bulkhead:1.7.0
+|         |         |    +--- io.vavr:vavr:0.10.2 (*)
+|         |         |    +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|         |         |    \--- io.github.resilience4j:resilience4j-core:1.7.0 (*)
+|         |         \--- io.github.resilience4j:resilience4j-timelimiter:1.7.0
+|         |              +--- io.vavr:vavr:0.10.2 (*)
+|         |              +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|         |              \--- io.github.resilience4j:resilience4j-core:1.7.0 (*)
+|         \--- io.github.resilience4j:resilience4j-micrometer:1.7.0
+|              +--- io.vavr:vavr:0.10.2 (*)
+|              \--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
++--- io.spinnaker.kork:kork-jedis -> 7.254.0
+|    +--- org.springframework.boot:spring-boot-starter-actuator:2.7.18 (*)
+|    +--- redis.clients:jedis:3.8.0
+|    |    +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    \--- org.apache.commons:commons-pool2:2.11.1
+|    +--- io.spinnaker.kork:kork-core:7.254.0 (*)
+|    \--- com.netflix.spectator:spectator-api:1.0.6
++--- io.spinnaker.fiat:fiat-core:1.57.0
+|    \--- org.springframework.security:spring-security-core:5.7.11
+|         +--- org.springframework.security:spring-security-crypto:5.7.11
+|         +--- org.springframework:spring-aop:5.3.29 -> 5.3.31 (*)
+|         +--- org.springframework:spring-beans:5.3.29 -> 5.3.31 (*)
+|         +--- org.springframework:spring-context:5.3.29 -> 5.3.31 (*)
+|         +--- org.springframework:spring-core:5.3.29 -> 5.3.31 (*)
+|         \--- org.springframework:spring-expression:5.3.29 -> 5.3.31 (*)
++--- javax.validation:validation-api -> 2.0.1.Final
++--- com.squareup.retrofit2:retrofit -> 2.8.1
+|    \--- com.squareup.okhttp3:okhttp:3.14.7 -> 4.9.3
+|         +--- com.squareup.okio:okio:2.8.0
+|         |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 -> 1.6.21 (*)
+|         |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0 -> 1.6.21
+|         \--- org.jetbrains.kotlin:kotlin-stdlib:1.4.10 -> 1.6.21 (*)
+\--- com.squareup.retrofit2:converter-jackson -> 2.8.1
+     +--- com.squareup.retrofit2:retrofit:2.8.1 (*)
+     \--- com.fasterxml.jackson.core:jackson-databind:2.10.1 -> 2.13.5 (*)
+
+compileOnly - Compile only dependencies for source set 'main'. (n)
+\--- org.projectlombok:lombok (n)
+
+compileOnlyApi - Compile only API dependencies for source set 'main'. (n)
+No dependencies
+
+default - Configuration for default artifacts. (n)
+No dependencies
+
+implementation - Implementation only dependencies for source set 'main'. (n)
++--- io.spinnaker.kork:kork-bom:7.254.0 (n)
++--- org.springframework.boot:spring-boot-starter-actuator (n)
++--- net.logstash.logback:logstash-logback-encoder (n)
++--- org.apache.groovy:groovy (n)
++--- io.spinnaker.kork:kork-artifacts (n)
++--- io.spinnaker.kork:kork-core (n)
++--- io.spinnaker.kork:kork-jedis (n)
++--- io.spinnaker.fiat:fiat-core:1.57.0 (n)
++--- javax.validation:validation-api (n)
++--- com.squareup.retrofit2:retrofit (n)
+\--- com.squareup.retrofit2:converter-jackson (n)
+
+mainSourceElements - List of source directories contained in the Main SourceSet. (n)
+No dependencies
+
+runtimeClasspath - Runtime classpath of source set 'main'.
++--- io.spinnaker.kork:kork-bom:7.254.0
+|    +--- org.apache.groovy:groovy:4.0.15 (c)
+|    +--- javax.validation:validation-api:2.0.1.Final (c)
+|    +--- org.springframework.boot:spring-boot-starter-actuator:2.7.18 (c)
+|    +--- com.squareup.retrofit2:converter-jackson:2.8.1 (c)
+|    +--- com.squareup.retrofit2:retrofit:2.8.1 (c)
+|    +--- net.logstash.logback:logstash-logback-encoder:4.11 (c)
+|    +--- io.spinnaker.kork:kork-artifacts:7.254.0 (c)
+|    +--- io.spinnaker.kork:kork-core:7.254.0 (c)
+|    +--- io.spinnaker.kork:kork-jedis:7.254.0 (c)
+|    +--- org.springframework.security:spring-security-core:5.7.11 (c)
+|    +--- com.fasterxml.jackson.core:jackson-annotations:2.13.5 (c)
+|    +--- com.google.code.findbugs:jsr305:3.0.2 (c)
+|    +--- io.spinnaker.kork:kork-retrofit:7.254.0 (c)
+|    +--- org.slf4j:slf4j-api:1.7.36 (c)
+|    +--- org.springframework:spring-core:5.3.31 (c)
+|    +--- org.springframework.boot:spring-boot-starter-web:2.7.18 (c)
+|    +--- org.springframework.boot:spring-boot-starter:2.7.18 (c)
+|    +--- org.springframework.boot:spring-boot-actuator-autoconfigure:2.7.18 (c)
+|    +--- io.micrometer:micrometer-core:1.9.17 (c)
+|    +--- com.fasterxml.jackson.core:jackson-databind:2.13.5 (c)
+|    +--- com.squareup.okhttp3:okhttp:4.9.3 (c)
+|    +--- ch.qos.logback:logback-core:1.2.13 (c)
+|    +--- software.amazon.awssdk:s3:2.23.7 (c)
+|    +--- software.amazon.awssdk:sts:2.23.7 (c)
+|    +--- com.hubspot.jinjava:jinjava:2.7.1 (c)
+|    +--- io.spinnaker.kork:kork-annotations:7.254.0 (c)
+|    +--- io.spinnaker.kork:kork-exceptions:7.254.0 (c)
+|    +--- io.spinnaker.kork:kork-security:7.254.0 (c)
+|    +--- org.apache.httpcomponents:httpclient:4.5.14 (c)
+|    +--- org.springframework.boot:spring-boot-autoconfigure:2.7.18 (c)
+|    +--- org.apache.logging.log4j:log4j-api:2.20.0 (c)
+|    +--- io.spinnaker.kork:kork-api:7.254.0 (c)
+|    +--- org.springframework.boot:spring-boot-starter-aop:2.7.18 (c)
+|    +--- com.netflix.spectator:spectator-api:1.0.6 (c)
+|    +--- io.github.resilience4j:resilience4j-annotations:1.7.0 (c)
+|    +--- io.github.resilience4j:resilience4j-retry:1.7.0 (c)
+|    +--- io.github.resilience4j:resilience4j-spring-boot2:1.7.0 (c)
+|    +--- com.netflix.spectator:spectator-ext-gc:1.0.6 (c)
+|    +--- com.netflix.spectator:spectator-ext-jvm:1.0.6 (c)
+|    +--- com.netflix.spectator:spectator-reg-micrometer:1.0.6 (c)
+|    +--- redis.clients:jedis:3.8.0 (c)
+|    +--- org.apache.commons:commons-lang3:3.12.0 (c)
+|    +--- org.springframework.security:spring-security-crypto:5.7.11 (c)
+|    +--- org.springframework:spring-aop:5.3.31 (c)
+|    +--- org.springframework:spring-beans:5.3.31 (c)
+|    +--- org.springframework:spring-context:5.3.31 (c)
+|    +--- org.springframework:spring-expression:5.3.31 (c)
+|    +--- com.squareup.retrofit:retrofit:1.9.0 (c)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21 (c)
+|    +--- io.spinnaker.kork:kork-web:7.254.0 (c)
+|    +--- com.jakewharton.retrofit:retrofit1-okhttp3-client:1.1.0 (c)
+|    +--- com.squareup.retrofit:converter-jackson:1.9.0 (c)
+|    +--- io.zipkin.brave:brave-instrumentation-okhttp3:5.12.3 (c)
+|    +--- com.squareup.okhttp3:logging-interceptor:4.9.3 (c)
+|    +--- com.google.guava:guava:33.0.0-jre (c)
+|    +--- org.springframework:spring-jcl:5.3.31 (c)
+|    +--- org.springframework.boot:spring-boot-starter-json:2.7.18 (c)
+|    +--- org.springframework.boot:spring-boot-starter-tomcat:2.7.18 (c)
+|    +--- org.springframework:spring-web:5.3.31 (c)
+|    +--- org.springframework:spring-webmvc:5.3.31 (c)
+|    +--- org.springframework.boot:spring-boot:2.7.18 (c)
+|    +--- org.springframework.boot:spring-boot-starter-logging:2.7.18 (c)
+|    +--- jakarta.annotation:jakarta.annotation-api:1.3.5 (c)
+|    +--- org.yaml:snakeyaml:1.31 (c)
+|    +--- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.5 (c)
+|    +--- org.springframework.boot:spring-boot-actuator:2.7.18 (c)
+|    +--- com.fasterxml.jackson.core:jackson-core:2.13.5 (c)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.6.21 (c)
+|    +--- software.amazon.awssdk:aws-xml-protocol:2.23.7 (c)
+|    +--- software.amazon.awssdk:protocol-core:2.23.7 (c)
+|    +--- software.amazon.awssdk:arns:2.23.7 (c)
+|    +--- software.amazon.awssdk:profiles:2.23.7 (c)
+|    +--- software.amazon.awssdk:http-auth:2.23.7 (c)
+|    +--- software.amazon.awssdk:identity-spi:2.23.7 (c)
+|    +--- software.amazon.awssdk:http-auth-spi:2.23.7 (c)
+|    +--- software.amazon.awssdk:http-auth-aws:2.23.7 (c)
+|    +--- software.amazon.awssdk:checksums:2.23.7 (c)
+|    +--- software.amazon.awssdk:checksums-spi:2.23.7 (c)
+|    +--- software.amazon.awssdk:sdk-core:2.23.7 (c)
+|    +--- software.amazon.awssdk:auth:2.23.7 (c)
+|    +--- software.amazon.awssdk:http-client-spi:2.23.7 (c)
+|    +--- software.amazon.awssdk:regions:2.23.7 (c)
+|    +--- software.amazon.awssdk:annotations:2.23.7 (c)
+|    +--- software.amazon.awssdk:utils:2.23.7 (c)
+|    +--- software.amazon.awssdk:aws-core:2.23.7 (c)
+|    +--- software.amazon.awssdk:metrics-spi:2.23.7 (c)
+|    +--- software.amazon.awssdk:json-utils:2.23.7 (c)
+|    +--- software.amazon.awssdk:apache-client:2.23.7 (c)
+|    +--- software.amazon.awssdk:netty-nio-client:2.23.7 (c)
+|    +--- software.amazon.awssdk:aws-query-protocol:2.23.7 (c)
+|    +--- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.13.5 (c)
+|    +--- org.apache.httpcomponents:httpcore:4.4.16 (c)
+|    +--- commons-codec:commons-codec:1.15 (c)
+|    +--- io.spinnaker.kork:kork-plugins-api:7.254.0 (c)
+|    +--- org.aspectj:aspectjweaver:1.9.7 (c)
+|    +--- io.github.resilience4j:resilience4j-core:1.7.0 (c)
+|    +--- io.github.resilience4j:resilience4j-spring:1.7.0 (c)
+|    +--- io.github.resilience4j:resilience4j-micrometer:1.7.0 (c)
+|    +--- org.apache.commons:commons-pool2:2.11.1 (c)
+|    +--- com.google.code.gson:gson:2.9.1 (c)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.21 (c)
+|    +--- io.spinnaker.kork:kork-crypto:7.254.0 (c)
+|    +--- org.springframework.boot:spring-boot-starter-webflux:2.7.18 (c)
+|    +--- org.springframework.boot:spring-boot-starter-security:2.7.18 (c)
+|    +--- com.netflix.spectator:spectator-web-spring:1.0.6 (c)
+|    +--- org.hibernate.validator:hibernate-validator:6.2.5.Final (c)
+|    +--- io.zipkin.brave:brave-instrumentation-http:5.12.3 (c)
+|    +--- io.zipkin.brave:brave:5.12.3 (c)
+|    +--- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.13.5 (c)
+|    +--- com.fasterxml.jackson.module:jackson-module-parameter-names:2.13.5 (c)
+|    +--- org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (c)
+|    +--- org.apache.tomcat.embed:tomcat-embed-el:9.0.83 (c)
+|    +--- org.apache.tomcat.embed:tomcat-embed-websocket:9.0.83 (c)
+|    +--- ch.qos.logback:logback-classic:1.2.13 (c)
+|    +--- org.apache.logging.log4j:log4j-to-slf4j:2.20.0 (c)
+|    +--- org.slf4j:jul-to-slf4j:1.7.36 (c)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.6.21 (c)
+|    +--- org.jetbrains:annotations:19.0.0 (c)
+|    +--- org.reactivestreams:reactive-streams:1.0.4 (c)
+|    +--- software.amazon.awssdk:third-party-jackson-core:2.23.7 (c)
+|    +--- io.netty:netty-codec-http:4.1.101.Final (c)
+|    +--- io.netty:netty-codec-http2:4.1.101.Final (c)
+|    +--- io.netty:netty-codec:4.1.101.Final (c)
+|    +--- io.netty:netty-transport:4.1.101.Final (c)
+|    +--- io.netty:netty-common:4.1.101.Final (c)
+|    +--- io.netty:netty-buffer:4.1.101.Final (c)
+|    +--- io.netty:netty-handler:4.1.101.Final (c)
+|    +--- io.netty:netty-transport-classes-epoll:4.1.101.Final (c)
+|    +--- io.netty:netty-resolver:4.1.101.Final (c)
+|    +--- javax.annotation:javax.annotation-api:1.3.2 (c)
+|    +--- org.pf4j:pf4j:3.10.0 (c)
+|    +--- io.github.resilience4j:resilience4j-consumer:1.7.0 (c)
+|    +--- org.bouncycastle:bcpkix-jdk18on:1.77 (c)
+|    +--- org.springframework.boot:spring-boot-starter-reactor-netty:2.7.18 (c)
+|    +--- org.springframework:spring-webflux:5.3.31 (c)
+|    +--- org.springframework.security:spring-security-config:5.7.11 (c)
+|    +--- org.springframework.security:spring-security-web:5.7.11 (c)
+|    +--- jakarta.validation:jakarta.validation-api:2.0.2 (c)
+|    +--- org.jboss.logging:jboss-logging:3.4.3.Final (c)
+|    +--- com.fasterxml:classmate:1.5.1 (c)
+|    +--- io.zipkin.reporter2:zipkin-reporter-brave:2.15.0 (c)
+|    +--- io.netty:netty-transport-native-unix-common:4.1.101.Final (c)
+|    +--- io.github.resilience4j:resilience4j-circuitbreaker:1.7.0 (c)
+|    +--- io.github.resilience4j:resilience4j-ratelimiter:1.7.0 (c)
+|    +--- io.github.resilience4j:resilience4j-bulkhead:1.7.0 (c)
+|    +--- io.github.resilience4j:resilience4j-timelimiter:1.7.0 (c)
+|    +--- io.github.resilience4j:resilience4j-circularbuffer:1.7.0 (c)
+|    +--- org.bouncycastle:bcprov-jdk18on:1.77 (c)
+|    +--- io.projectreactor.netty:reactor-netty-http:1.0.39 (c)
+|    +--- io.projectreactor:reactor-core:3.4.34 (c)
+|    +--- io.zipkin.reporter2:zipkin-reporter:2.15.0 (c)
+|    +--- io.zipkin.zipkin2:zipkin:2.21.1 (c)
+|    +--- io.netty:netty-resolver-dns:4.1.101.Final (c)
+|    +--- io.netty:netty-resolver-dns-native-macos:4.1.101.Final (c)
+|    +--- io.netty:netty-transport-native-epoll:4.1.101.Final (c)
+|    +--- io.projectreactor.netty:reactor-netty-core:1.0.39 (c)
+|    +--- io.netty:netty-codec-dns:4.1.101.Final (c)
+|    +--- io.netty:netty-resolver-dns-classes-macos:4.1.101.Final (c)
+|    +--- io.netty:netty-handler-proxy:4.1.101.Final (c)
+|    \--- io.netty:netty-codec-socks:4.1.101.Final (c)
++--- org.springframework.boot:spring-boot-starter-actuator -> 2.7.18
+|    +--- org.springframework.boot:spring-boot-starter:2.7.18
+|    |    +--- org.springframework.boot:spring-boot:2.7.18
+|    |    |    +--- org.springframework:spring-core:5.3.31
+|    |    |    |    \--- org.springframework:spring-jcl:5.3.31
+|    |    |    \--- org.springframework:spring-context:5.3.31
+|    |    |         +--- org.springframework:spring-aop:5.3.31
+|    |    |         |    +--- org.springframework:spring-beans:5.3.31
+|    |    |         |    |    \--- org.springframework:spring-core:5.3.31 (*)
+|    |    |         |    \--- org.springframework:spring-core:5.3.31 (*)
+|    |    |         +--- org.springframework:spring-beans:5.3.31 (*)
+|    |    |         +--- org.springframework:spring-core:5.3.31 (*)
+|    |    |         \--- org.springframework:spring-expression:5.3.31
+|    |    |              \--- org.springframework:spring-core:5.3.31 (*)
+|    |    +--- org.springframework.boot:spring-boot-autoconfigure:2.7.18
+|    |    |    \--- org.springframework.boot:spring-boot:2.7.18 (*)
+|    |    +--- org.springframework.boot:spring-boot-starter-logging:2.7.18
+|    |    |    +--- ch.qos.logback:logback-classic:1.2.12 -> 1.2.13
+|    |    |    |    +--- ch.qos.logback:logback-core:1.2.13
+|    |    |    |    \--- org.slf4j:slf4j-api:1.7.32 -> 1.7.36
+|    |    |    +--- org.apache.logging.log4j:log4j-to-slf4j:2.17.2 -> 2.20.0
+|    |    |    |    +--- org.apache.logging.log4j:log4j-api:2.20.0
+|    |    |    |    \--- org.slf4j:slf4j-api:1.7.36
+|    |    |    \--- org.slf4j:jul-to-slf4j:1.7.36
+|    |    |         \--- org.slf4j:slf4j-api:1.7.36
+|    |    +--- jakarta.annotation:jakarta.annotation-api:1.3.5
+|    |    +--- org.springframework:spring-core:5.3.31 (*)
+|    |    \--- org.yaml:snakeyaml:1.30 -> 1.31
+|    +--- org.springframework.boot:spring-boot-actuator-autoconfigure:2.7.18
+|    |    +--- com.fasterxml.jackson.core:jackson-databind:2.13.5
+|    |    |    +--- com.fasterxml.jackson.core:jackson-annotations:2.13.5
+|    |    |    |    \--- com.fasterxml.jackson:jackson-bom:2.13.5
+|    |    |    |         +--- com.fasterxml.jackson.core:jackson-annotations:2.13.5 (c)
+|    |    |    |         +--- com.fasterxml.jackson.core:jackson-core:2.13.5 (c)
+|    |    |    |         +--- com.fasterxml.jackson.core:jackson-databind:2.13.5 (c)
+|    |    |    |         +--- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.13.5 (c)
+|    |    |    |         +--- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.5 (c)
+|    |    |    |         +--- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.13.5 (c)
+|    |    |    |         \--- com.fasterxml.jackson.module:jackson-module-parameter-names:2.13.5 (c)
+|    |    |    +--- com.fasterxml.jackson.core:jackson-core:2.13.5
+|    |    |    |    \--- com.fasterxml.jackson:jackson-bom:2.13.5 (*)
+|    |    |    \--- com.fasterxml.jackson:jackson-bom:2.13.5 (*)
+|    |    +--- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.5
+|    |    |    +--- com.fasterxml.jackson.core:jackson-annotations:2.13.5 (*)
+|    |    |    +--- com.fasterxml.jackson.core:jackson-core:2.13.5 (*)
+|    |    |    +--- com.fasterxml.jackson.core:jackson-databind:2.13.5 (*)
+|    |    |    \--- com.fasterxml.jackson:jackson-bom:2.13.5 (*)
+|    |    +--- org.springframework.boot:spring-boot-actuator:2.7.18
+|    |    |    \--- org.springframework.boot:spring-boot:2.7.18 (*)
+|    |    +--- org.springframework.boot:spring-boot:2.7.18 (*)
+|    |    \--- org.springframework.boot:spring-boot-autoconfigure:2.7.18 (*)
+|    \--- io.micrometer:micrometer-core:1.9.17
+|         +--- org.hdrhistogram:HdrHistogram:2.1.12
+|         \--- org.latencyutils:LatencyUtils:2.0.3
++--- net.logstash.logback:logstash-logback-encoder -> 4.11
+|    +--- ch.qos.logback:logback-core:1.2.3 -> 1.2.13
+|    \--- com.fasterxml.jackson.core:jackson-databind:2.8.9 -> 2.13.5 (*)
++--- org.apache.groovy:groovy -> 4.0.15
+|    \--- org.apache.groovy:groovy-bom:4.0.15
+|         \--- org.apache.groovy:groovy:4.0.15 (c)
++--- io.spinnaker.kork:kork-artifacts -> 7.254.0
+|    +--- software.amazon.awssdk:s3:2.23.7
+|    |    +--- software.amazon.awssdk:aws-xml-protocol:2.23.7
+|    |    |    +--- software.amazon.awssdk:aws-query-protocol:2.23.7
+|    |    |    |    +--- software.amazon.awssdk:protocol-core:2.23.7
+|    |    |    |    |    +--- software.amazon.awssdk:sdk-core:2.23.7
+|    |    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    +--- software.amazon.awssdk:http-client-spi:2.23.7
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7
+|    |    |    |    |    |    |    |    +--- org.reactivestreams:reactive-streams:1.0.4
+|    |    |    |    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    |    |    \--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:metrics-spi:2.23.7
+|    |    |    |    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    |    |    \--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    |    |    \--- org.reactivestreams:reactive-streams:1.0.4
+|    |    |    |    |    |    +--- software.amazon.awssdk:metrics-spi:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:endpoints-spi:2.23.7
+|    |    |    |    |    |    |    \--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    +--- software.amazon.awssdk:http-auth-spi:2.23.7
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |    |    |    |    |    |    +--- org.reactivestreams:reactive-streams:1.0.4
+|    |    |    |    |    |    |    \--- software.amazon.awssdk:identity-spi:2.23.7
+|    |    |    |    |    |    |         +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    |         \--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:http-auth-aws:2.23.7
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:identity-spi:2.23.7 (*)
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:http-auth-spi:2.23.7 (*)
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:checksums-spi:2.23.7
+|    |    |    |    |    |    |    |    \--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    |    \--- software.amazon.awssdk:checksums:2.23.7
+|    |    |    |    |    |    |         +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    |         \--- software.amazon.awssdk:checksums-spi:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:checksums-spi:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:checksums:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:identity-spi:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:profiles:2.23.7
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    |    |    \--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    |    |    |    |    \--- org.reactivestreams:reactive-streams:1.0.4
+|    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    \--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |    |    |    +--- software.amazon.awssdk:aws-core:2.23.7
+|    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    +--- software.amazon.awssdk:regions:2.23.7
+|    |    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:sdk-core:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:profiles:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:json-utils:2.23.7
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    |    \--- software.amazon.awssdk:third-party-jackson-core:2.23.7
+|    |    |    |    |    |    \--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    |    |    |    +--- software.amazon.awssdk:auth:2.23.7
+|    |    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:sdk-core:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:identity-spi:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:regions:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:profiles:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:json-utils:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:http-auth-aws:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:http-auth:2.23.7
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:http-auth-spi:2.23.7 (*)
+|    |    |    |    |    |    |    \--- software.amazon.awssdk:identity-spi:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:http-auth-spi:2.23.7 (*)
+|    |    |    |    |    |    \--- software.amazon.eventstream:eventstream:1.0.1
+|    |    |    |    |    +--- software.amazon.awssdk:http-auth-spi:2.23.7 (*)
+|    |    |    |    |    +--- software.amazon.awssdk:identity-spi:2.23.7 (*)
+|    |    |    |    |    +--- software.amazon.awssdk:http-auth:2.23.7 (*)
+|    |    |    |    |    +--- software.amazon.awssdk:profiles:2.23.7 (*)
+|    |    |    |    |    +--- software.amazon.awssdk:sdk-core:2.23.7 (*)
+|    |    |    |    |    +--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |    |    |    |    +--- software.amazon.awssdk:metrics-spi:2.23.7 (*)
+|    |    |    |    |    +--- software.amazon.awssdk:endpoints-spi:2.23.7 (*)
+|    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    \--- software.amazon.eventstream:eventstream:1.0.1
+|    |    |    |    +--- software.amazon.awssdk:sdk-core:2.23.7 (*)
+|    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    +--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |    |    |    \--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    +--- software.amazon.awssdk:protocol-core:2.23.7 (*)
+|    |    |    +--- software.amazon.awssdk:aws-core:2.23.7 (*)
+|    |    |    +--- software.amazon.awssdk:sdk-core:2.23.7 (*)
+|    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    +--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |    |    \--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:protocol-core:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:arns:2.23.7
+|    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    \--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:profiles:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:crt-core:2.23.7
+|    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    \--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:http-auth:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:identity-spi:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:http-auth-spi:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:http-auth-aws:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:checksums:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:checksums-spi:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:sdk-core:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:auth:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:regions:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:aws-core:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:metrics-spi:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:json-utils:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:endpoints-spi:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:apache-client:2.23.7
+|    |    |    +--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |    |    +--- software.amazon.awssdk:metrics-spi:2.23.7 (*)
+|    |    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    +--- org.apache.httpcomponents:httpclient:4.5.13 -> 4.5.14
+|    |    |    |    +--- org.apache.httpcomponents:httpcore:4.4.16
+|    |    |    |    \--- commons-codec:commons-codec:1.11 -> 1.15
+|    |    |    +--- org.apache.httpcomponents:httpcore:4.4.13 -> 4.4.16
+|    |    |    \--- commons-codec:commons-codec:1.15
+|    |    \--- software.amazon.awssdk:netty-nio-client:2.23.7
+|    |         +--- software.amazon.awssdk:annotations:2.23.7
+|    |         +--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |         +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |         +--- software.amazon.awssdk:metrics-spi:2.23.7 (*)
+|    |         +--- io.netty:netty-codec-http:4.1.100.Final -> 4.1.101.Final
+|    |         |    +--- io.netty:netty-common:4.1.101.Final
+|    |         |    +--- io.netty:netty-buffer:4.1.101.Final
+|    |         |    |    \--- io.netty:netty-common:4.1.101.Final
+|    |         |    +--- io.netty:netty-transport:4.1.101.Final
+|    |         |    |    +--- io.netty:netty-common:4.1.101.Final
+|    |         |    |    +--- io.netty:netty-buffer:4.1.101.Final (*)
+|    |         |    |    \--- io.netty:netty-resolver:4.1.101.Final
+|    |         |    |         \--- io.netty:netty-common:4.1.101.Final
+|    |         |    +--- io.netty:netty-codec:4.1.101.Final
+|    |         |    |    +--- io.netty:netty-common:4.1.101.Final
+|    |         |    |    +--- io.netty:netty-buffer:4.1.101.Final (*)
+|    |         |    |    \--- io.netty:netty-transport:4.1.101.Final (*)
+|    |         |    \--- io.netty:netty-handler:4.1.101.Final
+|    |         |         +--- io.netty:netty-common:4.1.101.Final
+|    |         |         +--- io.netty:netty-resolver:4.1.101.Final (*)
+|    |         |         +--- io.netty:netty-buffer:4.1.101.Final (*)
+|    |         |         +--- io.netty:netty-transport:4.1.101.Final (*)
+|    |         |         +--- io.netty:netty-transport-native-unix-common:4.1.101.Final
+|    |         |         |    +--- io.netty:netty-common:4.1.101.Final
+|    |         |         |    +--- io.netty:netty-buffer:4.1.101.Final (*)
+|    |         |         |    \--- io.netty:netty-transport:4.1.101.Final (*)
+|    |         |         \--- io.netty:netty-codec:4.1.101.Final (*)
+|    |         +--- io.netty:netty-codec-http2:4.1.100.Final -> 4.1.101.Final
+|    |         |    +--- io.netty:netty-common:4.1.101.Final
+|    |         |    +--- io.netty:netty-buffer:4.1.101.Final (*)
+|    |         |    +--- io.netty:netty-transport:4.1.101.Final (*)
+|    |         |    +--- io.netty:netty-codec:4.1.101.Final (*)
+|    |         |    +--- io.netty:netty-handler:4.1.101.Final (*)
+|    |         |    \--- io.netty:netty-codec-http:4.1.101.Final (*)
+|    |         +--- io.netty:netty-codec:4.1.100.Final -> 4.1.101.Final (*)
+|    |         +--- io.netty:netty-transport:4.1.100.Final -> 4.1.101.Final (*)
+|    |         +--- io.netty:netty-common:4.1.100.Final -> 4.1.101.Final
+|    |         +--- io.netty:netty-buffer:4.1.100.Final -> 4.1.101.Final (*)
+|    |         +--- io.netty:netty-handler:4.1.100.Final -> 4.1.101.Final (*)
+|    |         +--- io.netty:netty-transport-classes-epoll:4.1.100.Final -> 4.1.101.Final
+|    |         |    +--- io.netty:netty-common:4.1.101.Final
+|    |         |    +--- io.netty:netty-buffer:4.1.101.Final (*)
+|    |         |    +--- io.netty:netty-transport:4.1.101.Final (*)
+|    |         |    \--- io.netty:netty-transport-native-unix-common:4.1.101.Final (*)
+|    |         +--- io.netty:netty-resolver:4.1.100.Final -> 4.1.101.Final (*)
+|    |         +--- org.reactivestreams:reactive-streams:1.0.4
+|    |         \--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    +--- software.amazon.awssdk:sts:2.23.7
+|    |    +--- software.amazon.awssdk:aws-query-protocol:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:protocol-core:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:profiles:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:http-auth-aws:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:sdk-core:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:auth:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:http-auth-spi:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:http-auth:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:identity-spi:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:regions:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:aws-core:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:metrics-spi:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:json-utils:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:endpoints-spi:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:apache-client:2.23.7 (*)
+|    |    \--- software.amazon.awssdk:netty-nio-client:2.23.7 (*)
+|    +--- com.hubspot.jinjava:jinjava:2.7.1
+|    |    +--- org.slf4j:slf4j-api:1.7.25 -> 1.7.36
+|    |    +--- com.google.guava:guava:31.1-jre -> 33.0.0-jre
+|    |    |    +--- com.google.guava:failureaccess:1.0.2
+|    |    |    +--- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava
+|    |    |    +--- com.google.code.findbugs:jsr305:3.0.2
+|    |    |    +--- org.checkerframework:checker-qual:3.41.0
+|    |    |    \--- com.google.errorprone:error_prone_annotations:2.23.0
+|    |    +--- org.javassist:javassist:3.24.1-GA
+|    |    +--- com.google.re2j:re2j:1.2
+|    |    +--- org.apache.commons:commons-lang3:3.9 -> 3.12.0
+|    |    +--- commons-net:commons-net:3.9.0
+|    |    +--- com.googlecode.java-ipv6:java-ipv6:0.17
+|    |    +--- com.google.code.findbugs:annotations:3.0.1
+|    |    +--- com.fasterxml.jackson.core:jackson-annotations:2.14.0 -> 2.13.5 (*)
+|    |    +--- com.fasterxml.jackson.core:jackson-databind:2.14.0 -> 2.13.5 (*)
+|    |    +--- com.fasterxml.jackson.core:jackson-core:2.14.0 -> 2.13.5 (*)
+|    |    +--- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.14.0 -> 2.13.5
+|    |    |    +--- com.fasterxml.jackson.core:jackson-databind:2.13.5 (*)
+|    |    |    +--- org.yaml:snakeyaml:1.31
+|    |    |    +--- com.fasterxml.jackson.core:jackson-core:2.13.5 (*)
+|    |    |    \--- com.fasterxml.jackson:jackson-bom:2.13.5 (*)
+|    |    \--- ch.obermuhlner:big-math:2.0.0
+|    +--- io.spinnaker.kork:kork-annotations:7.254.0
+|    |    \--- com.google.code.findbugs:jsr305:3.0.2
+|    +--- io.spinnaker.kork:kork-exceptions:7.254.0
+|    |    \--- com.google.code.findbugs:jsr305:3.0.2
+|    +--- io.spinnaker.kork:kork-security:7.254.0
+|    |    +--- org.springframework.security:spring-security-core:5.7.11
+|    |    |    +--- org.springframework.security:spring-security-crypto:5.7.11
+|    |    |    +--- org.springframework:spring-aop:5.3.29 -> 5.3.31 (*)
+|    |    |    +--- org.springframework:spring-beans:5.3.29 -> 5.3.31 (*)
+|    |    |    +--- org.springframework:spring-context:5.3.29 -> 5.3.31 (*)
+|    |    |    +--- org.springframework:spring-core:5.3.29 -> 5.3.31 (*)
+|    |    |    \--- org.springframework:spring-expression:5.3.29 -> 5.3.31 (*)
+|    |    +--- com.fasterxml.jackson.core:jackson-annotations:2.13.5 (*)
+|    |    +--- io.spinnaker.kork:kork-core:7.254.0
+|    |    |    +--- io.spinnaker.kork:kork-api:7.254.0
+|    |    |    |    +--- io.spinnaker.kork:kork-plugins-api:7.254.0
+|    |    |    |    |    +--- org.slf4j:slf4j-api:1.7.36
+|    |    |    |    |    +--- javax.annotation:javax.annotation-api:1.3.2
+|    |    |    |    |    +--- io.spinnaker.kork:kork-annotations:7.254.0 (*)
+|    |    |    |    |    +--- org.pf4j:pf4j:3.10.0
+|    |    |    |    |    |    +--- org.slf4j:slf4j-api:2.0.6 -> 1.7.36
+|    |    |    |    |    |    \--- com.github.zafarkhaja:java-semver:0.9.0
+|    |    |    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21
+|    |    |    |    |         +--- org.jetbrains.kotlin:kotlin-stdlib:1.6.21
+|    |    |    |    |         |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.6.21
+|    |    |    |    |         |    \--- org.jetbrains:annotations:13.0 -> 19.0.0
+|    |    |    |    |         \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.21
+|    |    |    |    |              \--- org.jetbrains.kotlin:kotlin-stdlib:1.6.21 (*)
+|    |    |    |    \--- io.spinnaker.kork:kork-annotations:7.254.0 (*)
+|    |    |    +--- io.spinnaker.kork:kork-annotations:7.254.0 (*)
+|    |    |    +--- io.spinnaker.kork:kork-exceptions:7.254.0 (*)
+|    |    |    +--- org.springframework.boot:spring-boot-autoconfigure:2.7.18 (*)
+|    |    |    +--- org.springframework.boot:spring-boot-starter-aop:2.7.18
+|    |    |    |    +--- org.springframework.boot:spring-boot-starter:2.7.18 (*)
+|    |    |    |    +--- org.springframework:spring-aop:5.3.31 (*)
+|    |    |    |    \--- org.aspectj:aspectjweaver:1.9.7
+|    |    |    +--- org.springframework.boot:spring-boot-starter-actuator:2.7.18 (*)
+|    |    |    +--- com.netflix.spectator:spectator-api:1.0.6
+|    |    |    |    \--- org.slf4j:slf4j-api:1.7.32 -> 1.7.36
+|    |    |    +--- com.google.code.findbugs:jsr305:3.0.2
+|    |    |    +--- io.github.resilience4j:resilience4j-annotations:1.7.0
+|    |    |    |    +--- io.vavr:vavr:0.10.2
+|    |    |    |    |    \--- io.vavr:vavr-match:0.10.2
+|    |    |    |    \--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    |    +--- io.github.resilience4j:resilience4j-retry:1.7.0
+|    |    |    |    +--- io.vavr:vavr:0.10.2 (*)
+|    |    |    |    +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    |    |    \--- io.github.resilience4j:resilience4j-core:1.7.0
+|    |    |    |         +--- io.vavr:vavr:0.10.2 (*)
+|    |    |    |         \--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    |    +--- io.github.resilience4j:resilience4j-spring-boot2:1.7.0
+|    |    |    |    +--- io.vavr:vavr:0.10.2 (*)
+|    |    |    |    +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    |    |    +--- io.github.resilience4j:resilience4j-spring:1.7.0
+|    |    |    |    |    +--- io.vavr:vavr:0.10.2 (*)
+|    |    |    |    |    +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    |    |    |    +--- io.github.resilience4j:resilience4j-annotations:1.7.0 (*)
+|    |    |    |    |    +--- io.github.resilience4j:resilience4j-consumer:1.7.0
+|    |    |    |    |    |    +--- io.vavr:vavr:0.10.2 (*)
+|    |    |    |    |    |    +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    |    |    |    |    +--- io.github.resilience4j:resilience4j-core:1.7.0 (*)
+|    |    |    |    |    |    \--- io.github.resilience4j:resilience4j-circularbuffer:1.7.0
+|    |    |    |    |    |         +--- io.vavr:vavr:0.10.2 (*)
+|    |    |    |    |    |         \--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    |    |    |    \--- io.github.resilience4j:resilience4j-framework-common:1.7.0
+|    |    |    |    |         +--- io.vavr:vavr:0.10.2 (*)
+|    |    |    |    |         +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    |    |    |         +--- io.github.resilience4j:resilience4j-core:1.7.0 (*)
+|    |    |    |    |         +--- io.github.resilience4j:resilience4j-circuitbreaker:1.7.0
+|    |    |    |    |         |    +--- io.vavr:vavr:0.10.2 (*)
+|    |    |    |    |         |    +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    |    |    |         |    \--- io.github.resilience4j:resilience4j-core:1.7.0 (*)
+|    |    |    |    |         +--- io.github.resilience4j:resilience4j-ratelimiter:1.7.0
+|    |    |    |    |         |    +--- io.vavr:vavr:0.10.2 (*)
+|    |    |    |    |         |    +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    |    |    |         |    \--- io.github.resilience4j:resilience4j-core:1.7.0 (*)
+|    |    |    |    |         +--- io.github.resilience4j:resilience4j-retry:1.7.0 (*)
+|    |    |    |    |         +--- io.github.resilience4j:resilience4j-bulkhead:1.7.0
+|    |    |    |    |         |    +--- io.vavr:vavr:0.10.2 (*)
+|    |    |    |    |         |    +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    |    |    |         |    \--- io.github.resilience4j:resilience4j-core:1.7.0 (*)
+|    |    |    |    |         \--- io.github.resilience4j:resilience4j-timelimiter:1.7.0
+|    |    |    |    |              +--- io.vavr:vavr:0.10.2 (*)
+|    |    |    |    |              +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    |    |    |              \--- io.github.resilience4j:resilience4j-core:1.7.0 (*)
+|    |    |    |    \--- io.github.resilience4j:resilience4j-micrometer:1.7.0
+|    |    |    |         +--- io.vavr:vavr:0.10.2 (*)
+|    |    |    |         \--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    |    +--- org.apache.logging.log4j:log4j-api:2.20.0
+|    |    |    +--- com.fasterxml.jackson.core:jackson-annotations:2.13.5 (*)
+|    |    |    +--- com.fasterxml.jackson.core:jackson-databind:2.13.5 (*)
+|    |    |    +--- com.netflix.spectator:spectator-ext-gc:1.0.6
+|    |    |    |    +--- org.slf4j:slf4j-api:1.7.32 -> 1.7.36
+|    |    |    |    \--- com.netflix.spectator:spectator-api:1.0.6 (*)
+|    |    |    +--- com.netflix.spectator:spectator-ext-jvm:1.0.6
+|    |    |    |    +--- org.slf4j:slf4j-api:1.7.32 -> 1.7.36
+|    |    |    |    +--- com.typesafe:config:1.4.1
+|    |    |    |    \--- com.netflix.spectator:spectator-api:1.0.6 (*)
+|    |    |    \--- com.netflix.spectator:spectator-reg-micrometer:1.0.6
+|    |    |         +--- org.slf4j:slf4j-api:1.7.32 -> 1.7.36
+|    |    |         +--- io.micrometer:micrometer-core:1.7.5 -> 1.9.17 (*)
+|    |    |         \--- com.netflix.spectator:spectator-api:1.0.6 (*)
+|    |    +--- com.google.guava:guava:33.0.0-jre (*)
+|    |    +--- org.apache.logging.log4j:log4j-api:2.20.0
+|    |    \--- org.slf4j:slf4j-api:1.7.36
+|    +--- com.fasterxml.jackson.core:jackson-databind:2.13.5 (*)
+|    +--- org.apache.httpcomponents:httpclient:4.5.14 (*)
+|    +--- org.springframework.boot:spring-boot-autoconfigure:2.7.18 (*)
+|    +--- org.springframework.security:spring-security-core:5.7.11 (*)
+|    \--- org.apache.logging.log4j:log4j-api:2.20.0
++--- io.spinnaker.kork:kork-core -> 7.254.0 (*)
++--- io.spinnaker.kork:kork-jedis -> 7.254.0
+|    +--- org.springframework.boot:spring-boot-starter-actuator:2.7.18 (*)
+|    +--- redis.clients:jedis:3.8.0
+|    |    +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    \--- org.apache.commons:commons-pool2:2.11.1
+|    +--- io.spinnaker.kork:kork-core:7.254.0 (*)
+|    +--- com.netflix.spectator:spectator-api:1.0.6 (*)
+|    +--- com.fasterxml.jackson.core:jackson-databind:2.13.5 (*)
+|    \--- org.apache.commons:commons-lang3:3.12.0
++--- io.spinnaker.fiat:fiat-core:1.57.0
+|    +--- org.springframework.security:spring-security-core:5.7.11 (*)
+|    +--- com.fasterxml.jackson.core:jackson-annotations:2.13.5 (*)
+|    +--- com.google.code.findbugs:jsr305:3.0.2
+|    +--- io.spinnaker.kork:kork-retrofit:7.254.0
+|    |    +--- com.squareup.retrofit:retrofit:1.9.0
+|    |    |    \--- com.google.code.gson:gson:2.3.1 -> 2.9.1
+|    |    +--- com.squareup.retrofit2:retrofit:2.8.1
+|    |    |    \--- com.squareup.okhttp3:okhttp:3.14.7 -> 4.9.3
+|    |    |         +--- com.squareup.okio:okio:2.8.0
+|    |    |         |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 -> 1.6.21 (*)
+|    |    |         |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0 -> 1.6.21
+|    |    |         \--- org.jetbrains.kotlin:kotlin-stdlib:1.4.10 -> 1.6.21 (*)
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21 (*)
+|    |    +--- io.spinnaker.kork:kork-web:7.254.0
+|    |    |    +--- io.spinnaker.kork:kork-core:7.254.0 (*)
+|    |    |    +--- io.spinnaker.kork:kork-crypto:7.254.0
+|    |    |    |    +--- io.spinnaker.kork:kork-annotations:7.254.0 (*)
+|    |    |    |    +--- org.bouncycastle:bcpkix-jdk18on:1.77
+|    |    |    |    |    +--- org.bouncycastle:bcprov-jdk18on:1.77
+|    |    |    |    |    \--- org.bouncycastle:bcutil-jdk18on:1.77
+|    |    |    |    |         \--- org.bouncycastle:bcprov-jdk18on:1.77
+|    |    |    |    \--- org.springframework:spring-aop:5.3.31 (*)
+|    |    |    +--- io.spinnaker.kork:kork-security:7.254.0 (*)
+|    |    |    +--- io.spinnaker.kork:kork-exceptions:7.254.0 (*)
+|    |    |    +--- org.apache.groovy:groovy:4.0.15 (*)
+|    |    |    +--- org.springframework.boot:spring-boot-starter-web:2.7.18
+|    |    |    |    +--- org.springframework.boot:spring-boot-starter:2.7.18 (*)
+|    |    |    |    +--- org.springframework.boot:spring-boot-starter-json:2.7.18
+|    |    |    |    |    +--- org.springframework.boot:spring-boot-starter:2.7.18 (*)
+|    |    |    |    |    +--- org.springframework:spring-web:5.3.31
+|    |    |    |    |    |    +--- org.springframework:spring-beans:5.3.31 (*)
+|    |    |    |    |    |    \--- org.springframework:spring-core:5.3.31 (*)
+|    |    |    |    |    +--- com.fasterxml.jackson.core:jackson-databind:2.13.5 (*)
+|    |    |    |    |    +--- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.13.5
+|    |    |    |    |    |    +--- com.fasterxml.jackson.core:jackson-core:2.13.5 (*)
+|    |    |    |    |    |    +--- com.fasterxml.jackson.core:jackson-databind:2.13.5 (*)
+|    |    |    |    |    |    \--- com.fasterxml.jackson:jackson-bom:2.13.5 (*)
+|    |    |    |    |    +--- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.5 (*)
+|    |    |    |    |    \--- com.fasterxml.jackson.module:jackson-module-parameter-names:2.13.5
+|    |    |    |    |         +--- com.fasterxml.jackson.core:jackson-core:2.13.5 (*)
+|    |    |    |    |         +--- com.fasterxml.jackson.core:jackson-databind:2.13.5 (*)
+|    |    |    |    |         \--- com.fasterxml.jackson:jackson-bom:2.13.5 (*)
+|    |    |    |    +--- org.springframework.boot:spring-boot-starter-tomcat:2.7.18
+|    |    |    |    |    +--- jakarta.annotation:jakarta.annotation-api:1.3.5
+|    |    |    |    |    +--- org.apache.tomcat.embed:tomcat-embed-core:9.0.83
+|    |    |    |    |    +--- org.apache.tomcat.embed:tomcat-embed-el:9.0.83
+|    |    |    |    |    \--- org.apache.tomcat.embed:tomcat-embed-websocket:9.0.83
+|    |    |    |    |         \--- org.apache.tomcat.embed:tomcat-embed-core:9.0.83
+|    |    |    |    +--- org.springframework:spring-web:5.3.31 (*)
+|    |    |    |    \--- org.springframework:spring-webmvc:5.3.31
+|    |    |    |         +--- org.springframework:spring-aop:5.3.31 (*)
+|    |    |    |         +--- org.springframework:spring-beans:5.3.31 (*)
+|    |    |    |         +--- org.springframework:spring-context:5.3.31 (*)
+|    |    |    |         +--- org.springframework:spring-core:5.3.31 (*)
+|    |    |    |         +--- org.springframework:spring-expression:5.3.31 (*)
+|    |    |    |         \--- org.springframework:spring-web:5.3.31 (*)
+|    |    |    +--- org.springframework.boot:spring-boot-starter-webflux:2.7.18
+|    |    |    |    +--- org.springframework.boot:spring-boot-starter:2.7.18 (*)
+|    |    |    |    +--- org.springframework.boot:spring-boot-starter-json:2.7.18 (*)
+|    |    |    |    +--- org.springframework.boot:spring-boot-starter-reactor-netty:2.7.18
+|    |    |    |    |    \--- io.projectreactor.netty:reactor-netty-http:1.0.39
+|    |    |    |    |         +--- io.netty:netty-codec-http:4.1.101.Final (*)
+|    |    |    |    |         +--- io.netty:netty-codec-http2:4.1.101.Final (*)
+|    |    |    |    |         +--- io.netty:netty-resolver-dns:4.1.101.Final
+|    |    |    |    |         |    +--- io.netty:netty-common:4.1.101.Final
+|    |    |    |    |         |    +--- io.netty:netty-buffer:4.1.101.Final (*)
+|    |    |    |    |         |    +--- io.netty:netty-resolver:4.1.101.Final (*)
+|    |    |    |    |         |    +--- io.netty:netty-transport:4.1.101.Final (*)
+|    |    |    |    |         |    +--- io.netty:netty-codec:4.1.101.Final (*)
+|    |    |    |    |         |    +--- io.netty:netty-codec-dns:4.1.101.Final
+|    |    |    |    |         |    |    +--- io.netty:netty-common:4.1.101.Final
+|    |    |    |    |         |    |    +--- io.netty:netty-buffer:4.1.101.Final (*)
+|    |    |    |    |         |    |    +--- io.netty:netty-transport:4.1.101.Final (*)
+|    |    |    |    |         |    |    \--- io.netty:netty-codec:4.1.101.Final (*)
+|    |    |    |    |         |    \--- io.netty:netty-handler:4.1.101.Final (*)
+|    |    |    |    |         +--- io.netty:netty-resolver-dns-native-macos:4.1.101.Final
+|    |    |    |    |         |    \--- io.netty:netty-resolver-dns-classes-macos:4.1.101.Final
+|    |    |    |    |         |         +--- io.netty:netty-common:4.1.101.Final
+|    |    |    |    |         |         +--- io.netty:netty-resolver-dns:4.1.101.Final (*)
+|    |    |    |    |         |         \--- io.netty:netty-transport-native-unix-common:4.1.101.Final (*)
+|    |    |    |    |         +--- io.netty:netty-transport-native-epoll:4.1.101.Final
+|    |    |    |    |         |    +--- io.netty:netty-common:4.1.101.Final
+|    |    |    |    |         |    +--- io.netty:netty-buffer:4.1.101.Final (*)
+|    |    |    |    |         |    +--- io.netty:netty-transport:4.1.101.Final (*)
+|    |    |    |    |         |    +--- io.netty:netty-transport-native-unix-common:4.1.101.Final (*)
+|    |    |    |    |         |    \--- io.netty:netty-transport-classes-epoll:4.1.101.Final (*)
+|    |    |    |    |         +--- io.projectreactor.netty:reactor-netty-core:1.0.39
+|    |    |    |    |         |    +--- io.netty:netty-handler:4.1.101.Final (*)
+|    |    |    |    |         |    +--- io.netty:netty-handler-proxy:4.1.101.Final
+|    |    |    |    |         |    |    +--- io.netty:netty-common:4.1.101.Final
+|    |    |    |    |         |    |    +--- io.netty:netty-buffer:4.1.101.Final (*)
+|    |    |    |    |         |    |    +--- io.netty:netty-transport:4.1.101.Final (*)
+|    |    |    |    |         |    |    +--- io.netty:netty-codec:4.1.101.Final (*)
+|    |    |    |    |         |    |    +--- io.netty:netty-codec-socks:4.1.101.Final
+|    |    |    |    |         |    |    |    +--- io.netty:netty-common:4.1.101.Final
+|    |    |    |    |         |    |    |    +--- io.netty:netty-buffer:4.1.101.Final (*)
+|    |    |    |    |         |    |    |    +--- io.netty:netty-transport:4.1.101.Final (*)
+|    |    |    |    |         |    |    |    \--- io.netty:netty-codec:4.1.101.Final (*)
+|    |    |    |    |         |    |    \--- io.netty:netty-codec-http:4.1.101.Final (*)
+|    |    |    |    |         |    +--- io.netty:netty-resolver-dns:4.1.101.Final (*)
+|    |    |    |    |         |    +--- io.netty:netty-resolver-dns-native-macos:4.1.101.Final (*)
+|    |    |    |    |         |    +--- io.netty:netty-transport-native-epoll:4.1.101.Final (*)
+|    |    |    |    |         |    \--- io.projectreactor:reactor-core:3.4.34
+|    |    |    |    |         |         \--- org.reactivestreams:reactive-streams:1.0.4
+|    |    |    |    |         \--- io.projectreactor:reactor-core:3.4.34 (*)
+|    |    |    |    +--- org.springframework:spring-web:5.3.31 (*)
+|    |    |    |    \--- org.springframework:spring-webflux:5.3.31
+|    |    |    |         +--- org.springframework:spring-beans:5.3.31 (*)
+|    |    |    |         +--- org.springframework:spring-core:5.3.31 (*)
+|    |    |    |         +--- org.springframework:spring-web:5.3.31 (*)
+|    |    |    |         \--- io.projectreactor:reactor-core:3.4.34 (*)
+|    |    |    +--- org.springframework.boot:spring-boot-starter-security:2.7.18
+|    |    |    |    +--- org.springframework.boot:spring-boot-starter:2.7.18 (*)
+|    |    |    |    +--- org.springframework:spring-aop:5.3.31 (*)
+|    |    |    |    +--- org.springframework.security:spring-security-config:5.7.11
+|    |    |    |    |    +--- org.springframework.security:spring-security-core:5.7.11 (*)
+|    |    |    |    |    +--- org.springframework:spring-aop:5.3.29 -> 5.3.31 (*)
+|    |    |    |    |    +--- org.springframework:spring-beans:5.3.29 -> 5.3.31 (*)
+|    |    |    |    |    +--- org.springframework:spring-context:5.3.29 -> 5.3.31 (*)
+|    |    |    |    |    \--- org.springframework:spring-core:5.3.29 -> 5.3.31 (*)
+|    |    |    |    \--- org.springframework.security:spring-security-web:5.7.11
+|    |    |    |         +--- org.springframework.security:spring-security-core:5.7.11 (*)
+|    |    |    |         +--- org.springframework:spring-core:5.3.29 -> 5.3.31 (*)
+|    |    |    |         +--- org.springframework:spring-aop:5.3.29 -> 5.3.31 (*)
+|    |    |    |         +--- org.springframework:spring-beans:5.3.29 -> 5.3.31 (*)
+|    |    |    |         +--- org.springframework:spring-context:5.3.29 -> 5.3.31 (*)
+|    |    |    |         +--- org.springframework:spring-expression:5.3.29 -> 5.3.31 (*)
+|    |    |    |         \--- org.springframework:spring-web:5.3.29 -> 5.3.31 (*)
+|    |    |    +--- org.springframework.security:spring-security-core:5.7.11 (*)
+|    |    |    +--- com.netflix.spectator:spectator-api:1.0.6 (*)
+|    |    |    +--- com.fasterxml.jackson.core:jackson-annotations:2.13.5 (*)
+|    |    |    +--- com.squareup.okhttp3:logging-interceptor:4.9.3
+|    |    |    |    +--- com.squareup.okhttp3:okhttp:4.9.3 (*)
+|    |    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.10 -> 1.6.21 (*)
+|    |    |    +--- com.squareup.okhttp3:okhttp:4.9.3 (*)
+|    |    |    +--- com.squareup.retrofit:retrofit:1.9.0 (*)
+|    |    |    +--- com.google.guava:guava:33.0.0-jre (*)
+|    |    |    +--- javax.inject:javax.inject:1
+|    |    |    +--- com.netflix.spectator:spectator-web-spring:1.0.6
+|    |    |    +--- io.zipkin.brave:brave-instrumentation-okhttp3:5.12.3
+|    |    |    |    +--- io.zipkin.brave:brave-instrumentation-http:5.12.3
+|    |    |    |    |    \--- io.zipkin.brave:brave:5.12.3
+|    |    |    |    |         \--- io.zipkin.reporter2:zipkin-reporter-brave:2.15.0
+|    |    |    |    |              +--- io.zipkin.reporter2:zipkin-reporter:2.15.0
+|    |    |    |    |              |    \--- io.zipkin.zipkin2:zipkin:2.21.1
+|    |    |    |    |              \--- io.zipkin.zipkin2:zipkin:2.21.1
+|    |    |    |    \--- io.zipkin.brave:brave:5.12.3 (*)
+|    |    |    \--- org.hibernate.validator:hibernate-validator:6.2.5.Final
+|    |    |         +--- jakarta.validation:jakarta.validation-api:2.0.2
+|    |    |         +--- org.jboss.logging:jboss-logging:3.4.1.Final -> 3.4.3.Final
+|    |    |         \--- com.fasterxml:classmate:1.5.1
+|    |    +--- com.jakewharton.retrofit:retrofit1-okhttp3-client:1.1.0
+|    |    |    +--- com.squareup.retrofit:retrofit:1.9.0 (*)
+|    |    |    \--- com.squareup.okhttp3:okhttp:3.2.0 -> 4.9.3 (*)
+|    |    +--- com.squareup.retrofit:converter-jackson:1.9.0
+|    |    |    +--- com.squareup.retrofit:retrofit:1.9.0 (*)
+|    |    |    \--- com.fasterxml.jackson.core:jackson-databind:2.4.3 -> 2.13.5 (*)
+|    |    +--- io.zipkin.brave:brave-instrumentation-okhttp3:5.12.3 (*)
+|    |    +--- com.squareup.retrofit2:converter-jackson:2.8.1
+|    |    |    +--- com.squareup.retrofit2:retrofit:2.8.1 (*)
+|    |    |    \--- com.fasterxml.jackson.core:jackson-databind:2.10.1 -> 2.13.5 (*)
+|    |    +--- com.squareup.okhttp3:logging-interceptor:4.9.3 (*)
+|    |    \--- com.google.guava:guava:33.0.0-jre (*)
+|    +--- org.slf4j:slf4j-api:1.7.36
+|    +--- org.springframework:spring-core:5.3.31 (*)
+|    \--- org.springframework.boot:spring-boot-starter-web:2.7.18 (*)
++--- javax.validation:validation-api -> 2.0.1.Final
++--- com.squareup.retrofit2:retrofit -> 2.8.1 (*)
+\--- com.squareup.retrofit2:converter-jackson -> 2.8.1 (*)
+
+runtimeElements - Elements of runtime for main. (n)
+No dependencies
+
+runtimeOnly - Runtime only dependencies for source set 'main'. (n)
+No dependencies
+
+spotless865451498 - [com.google.googlejavaformat:google-java-format:1.11.0]
+\--- com.google.googlejavaformat:google-java-format:1.11.0
+     \--- com.google.guava:guava:30.1.1-jre
+          +--- com.google.guava:failureaccess:1.0.1
+          +--- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava
+          +--- com.google.code.findbugs:jsr305:3.0.2
+          +--- org.checkerframework:checker-qual:3.8.0
+          +--- com.google.errorprone:error_prone_annotations:2.5.1
+          \--- com.google.j2objc:j2objc-annotations:1.3
+
+spotless865457264 - [com.google.googlejavaformat:google-java-format:1.17.0]
+\--- com.google.googlejavaformat:google-java-format:1.17.0
+     \--- com.google.guava:guava:31.1-jre
+          +--- com.google.guava:failureaccess:1.0.1
+          +--- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava
+          +--- com.google.code.findbugs:jsr305:3.0.2
+          +--- org.checkerframework:checker-qual:3.12.0
+          +--- com.google.errorprone:error_prone_annotations:2.11.0
+          \--- com.google.j2objc:j2objc-annotations:1.3
+
+testAnnotationProcessor - Annotation processors and their dependencies for source set 'test'.
++--- io.spinnaker.kork:kork-bom:7.254.0
+|    \--- org.projectlombok:lombok:1.18.30 (c)
+\--- org.projectlombok:lombok -> 1.18.30
+
+testCompileClasspath - Compile classpath for source set 'test'.
++--- io.spinnaker.kork:kork-bom:7.254.0
+|    +--- org.junit.jupiter:junit-jupiter-api:5.9.0 (c)
+|    +--- org.apache.groovy:groovy:4.0.15 (c)
+|    +--- com.squareup.okhttp3:mockwebserver:4.9.3 (c)
+|    +--- org.springframework:spring-test:5.3.31 (c)
+|    +--- org.assertj:assertj-core:3.22.0 (c)
+|    +--- org.hamcrest:hamcrest-core:2.2 (c)
+|    +--- javax.validation:validation-api:2.0.1.Final (c)
+|    +--- org.springframework.boot:spring-boot-starter-actuator:2.7.18 (c)
+|    +--- org.springframework.boot:spring-boot-starter-test:2.7.18 (c)
+|    +--- org.spockframework:spock-core:2.3-groovy-4.0 (c)
+|    +--- org.spockframework:spock-spring:2.3-groovy-4.0 (c)
+|    +--- com.netflix.spectator:spectator-reg-micrometer:1.0.6 (c)
+|    +--- com.squareup.retrofit2:converter-jackson:2.8.1 (c)
+|    +--- com.squareup.retrofit2:retrofit:2.8.1 (c)
+|    +--- net.logstash.logback:logstash-logback-encoder:4.11 (c)
+|    +--- io.spinnaker.kork:kork-artifacts:7.254.0 (c)
+|    +--- io.spinnaker.kork:kork-core:7.254.0 (c)
+|    +--- io.spinnaker.kork:kork-jedis:7.254.0 (c)
+|    +--- io.spinnaker.kork:kork-retrofit:7.254.0 (c)
+|    +--- org.springframework.security:spring-security-core:5.7.11 (c)
+|    +--- org.junit.platform:junit-platform-commons:1.9.0 (c)
+|    +--- com.squareup.okhttp3:okhttp:4.9.3 (c)
+|    +--- junit:junit:4.13.2 (c)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21 (c)
+|    +--- org.springframework:spring-core:5.3.31 (c)
+|    +--- org.hamcrest:hamcrest:2.2 (c)
+|    +--- org.springframework.boot:spring-boot-starter:2.7.18 (c)
+|    +--- org.springframework.boot:spring-boot-actuator-autoconfigure:2.7.18 (c)
+|    +--- io.micrometer:micrometer-core:1.9.17 (c)
+|    +--- org.springframework.boot:spring-boot-test:2.7.18 (c)
+|    +--- org.springframework.boot:spring-boot-test-autoconfigure:2.7.18 (c)
+|    +--- com.jayway.jsonpath:json-path:2.9.0 (c)
+|    +--- jakarta.xml.bind:jakarta.xml.bind-api:2.3.3 (c)
+|    +--- org.junit.jupiter:junit-jupiter:5.9.0 (c)
+|    +--- org.mockito:mockito-core:4.5.1 (c)
+|    +--- org.mockito:mockito-junit-jupiter:4.5.1 (c)
+|    +--- org.skyscreamer:jsonassert:1.5.1 (c)
+|    +--- org.xmlunit:xmlunit-core:2.9.1 (c)
+|    +--- org.junit.platform:junit-platform-engine:1.9.0 (c)
+|    +--- com.netflix.spectator:spectator-api:1.0.6 (c)
+|    +--- com.fasterxml.jackson.core:jackson-databind:2.13.5 (c)
+|    +--- ch.qos.logback:logback-core:1.2.13 (c)
+|    +--- software.amazon.awssdk:s3:2.23.7 (c)
+|    +--- software.amazon.awssdk:sts:2.23.7 (c)
+|    +--- com.hubspot.jinjava:jinjava:2.7.1 (c)
+|    +--- io.spinnaker.kork:kork-api:7.254.0 (c)
+|    +--- io.spinnaker.kork:kork-annotations:7.254.0 (c)
+|    +--- io.spinnaker.kork:kork-exceptions:7.254.0 (c)
+|    +--- org.springframework.boot:spring-boot-autoconfigure:2.7.18 (c)
+|    +--- org.springframework.boot:spring-boot-starter-aop:2.7.18 (c)
+|    +--- com.google.code.findbugs:jsr305:3.0.2 (c)
+|    +--- io.github.resilience4j:resilience4j-annotations:1.7.0 (c)
+|    +--- io.github.resilience4j:resilience4j-retry:1.7.0 (c)
+|    +--- io.github.resilience4j:resilience4j-spring-boot2:1.7.0 (c)
+|    +--- redis.clients:jedis:3.8.0 (c)
+|    +--- com.squareup.retrofit:retrofit:1.9.0 (c)
+|    +--- org.springframework.security:spring-security-crypto:5.7.11 (c)
+|    +--- org.springframework:spring-aop:5.3.31 (c)
+|    +--- org.springframework:spring-beans:5.3.31 (c)
+|    +--- org.springframework:spring-context:5.3.31 (c)
+|    +--- org.springframework:spring-expression:5.3.31 (c)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.6.21 (c)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.21 (c)
+|    +--- org.springframework:spring-jcl:5.3.31 (c)
+|    +--- org.springframework.boot:spring-boot:2.7.18 (c)
+|    +--- org.springframework.boot:spring-boot-starter-logging:2.7.18 (c)
+|    +--- jakarta.annotation:jakarta.annotation-api:1.3.5 (c)
+|    +--- org.yaml:snakeyaml:1.31 (c)
+|    +--- org.springframework.boot:spring-boot-actuator:2.7.18 (c)
+|    +--- jakarta.activation:jakarta.activation-api:1.2.2 (c)
+|    +--- org.junit.jupiter:junit-jupiter-params:5.9.0 (c)
+|    +--- net.bytebuddy:byte-buddy:1.12.23 (c)
+|    +--- net.bytebuddy:byte-buddy-agent:1.12.23 (c)
+|    +--- com.fasterxml.jackson.core:jackson-annotations:2.13.5 (c)
+|    +--- com.fasterxml.jackson.core:jackson-core:2.13.5 (c)
+|    +--- software.amazon.awssdk:aws-xml-protocol:2.23.7 (c)
+|    +--- software.amazon.awssdk:protocol-core:2.23.7 (c)
+|    +--- software.amazon.awssdk:arns:2.23.7 (c)
+|    +--- software.amazon.awssdk:profiles:2.23.7 (c)
+|    +--- software.amazon.awssdk:http-auth:2.23.7 (c)
+|    +--- software.amazon.awssdk:identity-spi:2.23.7 (c)
+|    +--- software.amazon.awssdk:http-auth-spi:2.23.7 (c)
+|    +--- software.amazon.awssdk:http-auth-aws:2.23.7 (c)
+|    +--- software.amazon.awssdk:checksums:2.23.7 (c)
+|    +--- software.amazon.awssdk:checksums-spi:2.23.7 (c)
+|    +--- software.amazon.awssdk:sdk-core:2.23.7 (c)
+|    +--- software.amazon.awssdk:auth:2.23.7 (c)
+|    +--- software.amazon.awssdk:http-client-spi:2.23.7 (c)
+|    +--- software.amazon.awssdk:regions:2.23.7 (c)
+|    +--- software.amazon.awssdk:annotations:2.23.7 (c)
+|    +--- software.amazon.awssdk:utils:2.23.7 (c)
+|    +--- software.amazon.awssdk:aws-core:2.23.7 (c)
+|    +--- software.amazon.awssdk:metrics-spi:2.23.7 (c)
+|    +--- software.amazon.awssdk:json-utils:2.23.7 (c)
+|    +--- software.amazon.awssdk:aws-query-protocol:2.23.7 (c)
+|    +--- org.slf4j:slf4j-api:1.7.36 (c)
+|    +--- com.google.guava:guava:33.0.0-jre (c)
+|    +--- org.apache.commons:commons-lang3:3.12.0 (c)
+|    +--- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.13.5 (c)
+|    +--- io.spinnaker.kork:kork-plugins-api:7.254.0 (c)
+|    +--- org.aspectj:aspectjweaver:1.9.7 (c)
+|    +--- io.github.resilience4j:resilience4j-core:1.7.0 (c)
+|    +--- io.github.resilience4j:resilience4j-spring:1.7.0 (c)
+|    +--- io.github.resilience4j:resilience4j-micrometer:1.7.0 (c)
+|    +--- org.apache.commons:commons-pool2:2.11.1 (c)
+|    +--- com.google.code.gson:gson:2.9.1 (c)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.6.21 (c)
+|    +--- org.jetbrains:annotations:19.0.0 (c)
+|    +--- ch.qos.logback:logback-classic:1.2.13 (c)
+|    +--- org.apache.logging.log4j:log4j-to-slf4j:2.20.0 (c)
+|    +--- org.slf4j:jul-to-slf4j:1.7.36 (c)
+|    +--- org.reactivestreams:reactive-streams:1.0.4 (c)
+|    +--- software.amazon.awssdk:third-party-jackson-core:2.23.7 (c)
+|    +--- javax.annotation:javax.annotation-api:1.3.2 (c)
+|    +--- org.pf4j:pf4j:3.10.0 (c)
+|    +--- io.github.resilience4j:resilience4j-consumer:1.7.0 (c)
+|    +--- org.apache.logging.log4j:log4j-api:2.20.0 (c)
+|    +--- io.github.resilience4j:resilience4j-circuitbreaker:1.7.0 (c)
+|    +--- io.github.resilience4j:resilience4j-ratelimiter:1.7.0 (c)
+|    +--- io.github.resilience4j:resilience4j-bulkhead:1.7.0 (c)
+|    +--- io.github.resilience4j:resilience4j-timelimiter:1.7.0 (c)
+|    \--- io.github.resilience4j:resilience4j-circularbuffer:1.7.0 (c)
++--- org.springframework.boot:spring-boot-starter-actuator -> 2.7.18
+|    +--- org.springframework.boot:spring-boot-starter:2.7.18
+|    |    +--- org.springframework.boot:spring-boot:2.7.18
+|    |    |    +--- org.springframework:spring-core:5.3.31
+|    |    |    |    \--- org.springframework:spring-jcl:5.3.31
+|    |    |    \--- org.springframework:spring-context:5.3.31
+|    |    |         +--- org.springframework:spring-aop:5.3.31
+|    |    |         |    +--- org.springframework:spring-beans:5.3.31
+|    |    |         |    |    \--- org.springframework:spring-core:5.3.31 (*)
+|    |    |         |    \--- org.springframework:spring-core:5.3.31 (*)
+|    |    |         +--- org.springframework:spring-beans:5.3.31 (*)
+|    |    |         +--- org.springframework:spring-core:5.3.31 (*)
+|    |    |         \--- org.springframework:spring-expression:5.3.31
+|    |    |              \--- org.springframework:spring-core:5.3.31 (*)
+|    |    +--- org.springframework.boot:spring-boot-autoconfigure:2.7.18
+|    |    |    \--- org.springframework.boot:spring-boot:2.7.18 (*)
+|    |    +--- org.springframework.boot:spring-boot-starter-logging:2.7.18
+|    |    |    +--- ch.qos.logback:logback-classic:1.2.12 -> 1.2.13
+|    |    |    |    +--- ch.qos.logback:logback-core:1.2.13
+|    |    |    |    \--- org.slf4j:slf4j-api:1.7.32 -> 1.7.36
+|    |    |    +--- org.apache.logging.log4j:log4j-to-slf4j:2.17.2 -> 2.20.0
+|    |    |    |    +--- org.apache.logging.log4j:log4j-api:2.20.0
+|    |    |    |    \--- org.slf4j:slf4j-api:1.7.36
+|    |    |    \--- org.slf4j:jul-to-slf4j:1.7.36
+|    |    |         \--- org.slf4j:slf4j-api:1.7.36
+|    |    +--- jakarta.annotation:jakarta.annotation-api:1.3.5
+|    |    +--- org.springframework:spring-core:5.3.31 (*)
+|    |    \--- org.yaml:snakeyaml:1.30 -> 1.31
+|    +--- org.springframework.boot:spring-boot-actuator-autoconfigure:2.7.18
+|    |    +--- org.springframework.boot:spring-boot-actuator:2.7.18
+|    |    |    \--- org.springframework.boot:spring-boot:2.7.18 (*)
+|    |    +--- org.springframework.boot:spring-boot:2.7.18 (*)
+|    |    \--- org.springframework.boot:spring-boot-autoconfigure:2.7.18 (*)
+|    \--- io.micrometer:micrometer-core:1.9.17
+|         \--- org.hdrhistogram:HdrHistogram:2.1.12
++--- net.logstash.logback:logstash-logback-encoder -> 4.11
+|    +--- ch.qos.logback:logback-core:1.2.3 -> 1.2.13
+|    \--- com.fasterxml.jackson.core:jackson-databind:2.8.9 -> 2.13.5
+|         +--- com.fasterxml.jackson.core:jackson-annotations:2.13.5
+|         |    \--- com.fasterxml.jackson:jackson-bom:2.13.5
+|         |         +--- com.fasterxml.jackson.core:jackson-annotations:2.13.5 (c)
+|         |         +--- com.fasterxml.jackson.core:jackson-core:2.13.5 (c)
+|         |         +--- com.fasterxml.jackson.core:jackson-databind:2.13.5 (c)
+|         |         \--- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.13.5 (c)
+|         +--- com.fasterxml.jackson.core:jackson-core:2.13.5
+|         |    \--- com.fasterxml.jackson:jackson-bom:2.13.5 (*)
+|         \--- com.fasterxml.jackson:jackson-bom:2.13.5 (*)
++--- org.apache.groovy:groovy -> 4.0.15
+|    \--- org.apache.groovy:groovy-bom:4.0.15
+|         \--- org.apache.groovy:groovy:4.0.15 (c)
++--- io.spinnaker.kork:kork-artifacts -> 7.254.0
+|    +--- software.amazon.awssdk:s3:2.23.7
+|    |    +--- software.amazon.awssdk:aws-xml-protocol:2.23.7
+|    |    |    +--- software.amazon.awssdk:aws-query-protocol:2.23.7
+|    |    |    |    +--- software.amazon.awssdk:protocol-core:2.23.7
+|    |    |    |    |    +--- software.amazon.awssdk:sdk-core:2.23.7
+|    |    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    +--- software.amazon.awssdk:http-client-spi:2.23.7
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7
+|    |    |    |    |    |    |    |    +--- org.reactivestreams:reactive-streams:1.0.4
+|    |    |    |    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    |    |    \--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:metrics-spi:2.23.7
+|    |    |    |    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    |    |    \--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    |    |    \--- org.reactivestreams:reactive-streams:1.0.4
+|    |    |    |    |    |    +--- software.amazon.awssdk:metrics-spi:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:endpoints-spi:2.23.7
+|    |    |    |    |    |    |    \--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    +--- software.amazon.awssdk:http-auth-spi:2.23.7
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |    |    |    |    |    |    +--- org.reactivestreams:reactive-streams:1.0.4
+|    |    |    |    |    |    |    \--- software.amazon.awssdk:identity-spi:2.23.7
+|    |    |    |    |    |    |         +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    |         \--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:http-auth-aws:2.23.7
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:identity-spi:2.23.7 (*)
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:http-auth-spi:2.23.7 (*)
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:checksums-spi:2.23.7
+|    |    |    |    |    |    |    |    \--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    |    \--- software.amazon.awssdk:checksums:2.23.7
+|    |    |    |    |    |    |         +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    |         \--- software.amazon.awssdk:checksums-spi:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:checksums-spi:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:checksums:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:identity-spi:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:profiles:2.23.7
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    |    |    \--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    |    |    |    |    \--- org.reactivestreams:reactive-streams:1.0.4
+|    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    \--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |    |    |    +--- software.amazon.awssdk:aws-core:2.23.7
+|    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    +--- software.amazon.awssdk:regions:2.23.7
+|    |    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:sdk-core:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:profiles:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:json-utils:2.23.7
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    |    \--- software.amazon.awssdk:third-party-jackson-core:2.23.7
+|    |    |    |    |    |    \--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    |    |    |    +--- software.amazon.awssdk:auth:2.23.7
+|    |    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:sdk-core:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:identity-spi:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:regions:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:profiles:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:json-utils:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:http-auth-aws:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:http-auth:2.23.7
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:http-auth-spi:2.23.7 (*)
+|    |    |    |    |    |    |    \--- software.amazon.awssdk:identity-spi:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:http-auth-spi:2.23.7 (*)
+|    |    |    |    |    |    \--- software.amazon.eventstream:eventstream:1.0.1
+|    |    |    |    |    +--- software.amazon.awssdk:http-auth-spi:2.23.7 (*)
+|    |    |    |    |    +--- software.amazon.awssdk:identity-spi:2.23.7 (*)
+|    |    |    |    |    +--- software.amazon.awssdk:http-auth:2.23.7 (*)
+|    |    |    |    |    +--- software.amazon.awssdk:profiles:2.23.7 (*)
+|    |    |    |    |    +--- software.amazon.awssdk:sdk-core:2.23.7 (*)
+|    |    |    |    |    +--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |    |    |    |    +--- software.amazon.awssdk:metrics-spi:2.23.7 (*)
+|    |    |    |    |    +--- software.amazon.awssdk:endpoints-spi:2.23.7 (*)
+|    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    \--- software.amazon.eventstream:eventstream:1.0.1
+|    |    |    |    +--- software.amazon.awssdk:sdk-core:2.23.7 (*)
+|    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    +--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |    |    |    \--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    +--- software.amazon.awssdk:protocol-core:2.23.7 (*)
+|    |    |    +--- software.amazon.awssdk:aws-core:2.23.7 (*)
+|    |    |    +--- software.amazon.awssdk:sdk-core:2.23.7 (*)
+|    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    +--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |    |    \--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:protocol-core:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:arns:2.23.7
+|    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    \--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:profiles:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:crt-core:2.23.7
+|    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    \--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:http-auth:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:identity-spi:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:http-auth-spi:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:http-auth-aws:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:checksums:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:checksums-spi:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:sdk-core:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:auth:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:regions:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:aws-core:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:metrics-spi:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:json-utils:2.23.7 (*)
+|    |    \--- software.amazon.awssdk:endpoints-spi:2.23.7 (*)
+|    +--- software.amazon.awssdk:sts:2.23.7
+|    |    +--- software.amazon.awssdk:aws-query-protocol:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:protocol-core:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:profiles:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:http-auth-aws:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:sdk-core:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:auth:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:http-auth-spi:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:http-auth:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:identity-spi:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:regions:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:aws-core:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:metrics-spi:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:json-utils:2.23.7 (*)
+|    |    \--- software.amazon.awssdk:endpoints-spi:2.23.7 (*)
+|    \--- com.hubspot.jinjava:jinjava:2.7.1
+|         +--- org.slf4j:slf4j-api:1.7.25 -> 1.7.36
+|         +--- com.google.guava:guava:31.1-jre -> 33.0.0-jre
+|         |    +--- com.google.guava:failureaccess:1.0.2
+|         |    +--- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava
+|         |    +--- org.checkerframework:checker-qual:3.41.0
+|         |    +--- com.google.errorprone:error_prone_annotations:2.23.0
+|         |    \--- com.google.j2objc:j2objc-annotations:2.8
+|         +--- org.javassist:javassist:3.24.1-GA
+|         +--- com.google.re2j:re2j:1.2
+|         +--- org.apache.commons:commons-lang3:3.9 -> 3.12.0
+|         +--- commons-net:commons-net:3.9.0
+|         +--- com.googlecode.java-ipv6:java-ipv6:0.17
+|         +--- com.google.code.findbugs:annotations:3.0.1
+|         +--- com.fasterxml.jackson.core:jackson-annotations:2.14.0 -> 2.13.5 (*)
+|         +--- com.fasterxml.jackson.core:jackson-databind:2.14.0 -> 2.13.5 (*)
+|         +--- com.fasterxml.jackson.core:jackson-core:2.14.0 -> 2.13.5 (*)
+|         +--- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.14.0 -> 2.13.5
+|         |    +--- com.fasterxml.jackson.core:jackson-databind:2.13.5 (*)
+|         |    +--- org.yaml:snakeyaml:1.31
+|         |    +--- com.fasterxml.jackson.core:jackson-core:2.13.5 (*)
+|         |    \--- com.fasterxml.jackson:jackson-bom:2.13.5 (*)
+|         \--- ch.obermuhlner:big-math:2.0.0
++--- io.spinnaker.kork:kork-core -> 7.254.0
+|    +--- io.spinnaker.kork:kork-api:7.254.0
+|    |    \--- io.spinnaker.kork:kork-plugins-api:7.254.0
+|    |         +--- org.slf4j:slf4j-api:1.7.36
+|    |         +--- javax.annotation:javax.annotation-api:1.3.2
+|    |         +--- io.spinnaker.kork:kork-annotations:7.254.0
+|    |         |    \--- com.google.code.findbugs:jsr305:3.0.2
+|    |         +--- org.pf4j:pf4j:3.10.0
+|    |         |    +--- org.slf4j:slf4j-api:2.0.6 -> 1.7.36
+|    |         |    \--- com.github.zafarkhaja:java-semver:0.9.0
+|    |         \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21
+|    |              +--- org.jetbrains.kotlin:kotlin-stdlib:1.6.21
+|    |              |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.6.21
+|    |              |    \--- org.jetbrains:annotations:13.0 -> 19.0.0
+|    |              \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.21
+|    |                   \--- org.jetbrains.kotlin:kotlin-stdlib:1.6.21 (*)
+|    +--- io.spinnaker.kork:kork-annotations:7.254.0 (*)
+|    +--- io.spinnaker.kork:kork-exceptions:7.254.0
+|    |    \--- com.google.code.findbugs:jsr305:3.0.2
+|    +--- org.springframework.boot:spring-boot-autoconfigure:2.7.18 (*)
+|    +--- org.springframework.boot:spring-boot-starter-aop:2.7.18
+|    |    +--- org.springframework.boot:spring-boot-starter:2.7.18 (*)
+|    |    +--- org.springframework:spring-aop:5.3.31 (*)
+|    |    \--- org.aspectj:aspectjweaver:1.9.7
+|    +--- org.springframework.boot:spring-boot-starter-actuator:2.7.18 (*)
+|    +--- com.netflix.spectator:spectator-api:1.0.6
+|    +--- com.google.code.findbugs:jsr305:3.0.2
+|    +--- io.github.resilience4j:resilience4j-annotations:1.7.0
+|    |    +--- io.vavr:vavr:0.10.2
+|    |    |    \--- io.vavr:vavr-match:0.10.2
+|    |    \--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    +--- io.github.resilience4j:resilience4j-retry:1.7.0
+|    |    +--- io.vavr:vavr:0.10.2 (*)
+|    |    +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    \--- io.github.resilience4j:resilience4j-core:1.7.0
+|    |         +--- io.vavr:vavr:0.10.2 (*)
+|    |         \--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    \--- io.github.resilience4j:resilience4j-spring-boot2:1.7.0
+|         +--- io.vavr:vavr:0.10.2 (*)
+|         +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|         +--- io.github.resilience4j:resilience4j-spring:1.7.0
+|         |    +--- io.vavr:vavr:0.10.2 (*)
+|         |    +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|         |    +--- io.github.resilience4j:resilience4j-annotations:1.7.0 (*)
+|         |    +--- io.github.resilience4j:resilience4j-consumer:1.7.0
+|         |    |    +--- io.vavr:vavr:0.10.2 (*)
+|         |    |    +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|         |    |    +--- io.github.resilience4j:resilience4j-core:1.7.0 (*)
+|         |    |    \--- io.github.resilience4j:resilience4j-circularbuffer:1.7.0
+|         |    |         +--- io.vavr:vavr:0.10.2 (*)
+|         |    |         \--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|         |    \--- io.github.resilience4j:resilience4j-framework-common:1.7.0
+|         |         +--- io.vavr:vavr:0.10.2 (*)
+|         |         +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|         |         +--- io.github.resilience4j:resilience4j-core:1.7.0 (*)
+|         |         +--- io.github.resilience4j:resilience4j-circuitbreaker:1.7.0
+|         |         |    +--- io.vavr:vavr:0.10.2 (*)
+|         |         |    +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|         |         |    \--- io.github.resilience4j:resilience4j-core:1.7.0 (*)
+|         |         +--- io.github.resilience4j:resilience4j-ratelimiter:1.7.0
+|         |         |    +--- io.vavr:vavr:0.10.2 (*)
+|         |         |    +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|         |         |    \--- io.github.resilience4j:resilience4j-core:1.7.0 (*)
+|         |         +--- io.github.resilience4j:resilience4j-retry:1.7.0 (*)
+|         |         +--- io.github.resilience4j:resilience4j-bulkhead:1.7.0
+|         |         |    +--- io.vavr:vavr:0.10.2 (*)
+|         |         |    +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|         |         |    \--- io.github.resilience4j:resilience4j-core:1.7.0 (*)
+|         |         \--- io.github.resilience4j:resilience4j-timelimiter:1.7.0
+|         |              +--- io.vavr:vavr:0.10.2 (*)
+|         |              +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|         |              \--- io.github.resilience4j:resilience4j-core:1.7.0 (*)
+|         \--- io.github.resilience4j:resilience4j-micrometer:1.7.0
+|              +--- io.vavr:vavr:0.10.2 (*)
+|              \--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
++--- io.spinnaker.kork:kork-jedis -> 7.254.0
+|    +--- org.springframework.boot:spring-boot-starter-actuator:2.7.18 (*)
+|    +--- redis.clients:jedis:3.8.0
+|    |    +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    \--- org.apache.commons:commons-pool2:2.11.1
+|    +--- io.spinnaker.kork:kork-core:7.254.0 (*)
+|    \--- com.netflix.spectator:spectator-api:1.0.6
++--- io.spinnaker.fiat:fiat-core:1.57.0
+|    \--- org.springframework.security:spring-security-core:5.7.11
+|         +--- org.springframework.security:spring-security-crypto:5.7.11
+|         +--- org.springframework:spring-aop:5.3.29 -> 5.3.31 (*)
+|         +--- org.springframework:spring-beans:5.3.29 -> 5.3.31 (*)
+|         +--- org.springframework:spring-context:5.3.29 -> 5.3.31 (*)
+|         +--- org.springframework:spring-core:5.3.29 -> 5.3.31 (*)
+|         \--- org.springframework:spring-expression:5.3.29 -> 5.3.31 (*)
++--- javax.validation:validation-api -> 2.0.1.Final
++--- com.squareup.retrofit2:retrofit -> 2.8.1
+|    \--- com.squareup.okhttp3:okhttp:3.14.7 -> 4.9.3
+|         +--- com.squareup.okio:okio:2.8.0
+|         |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 -> 1.6.21 (*)
+|         |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0 -> 1.6.21
+|         \--- org.jetbrains.kotlin:kotlin-stdlib:1.4.10 -> 1.6.21 (*)
++--- com.squareup.retrofit2:converter-jackson -> 2.8.1
+|    +--- com.squareup.retrofit2:retrofit:2.8.1 (*)
+|    \--- com.fasterxml.jackson.core:jackson-databind:2.10.1 -> 2.13.5 (*)
++--- org.springframework.boot:spring-boot-starter-test -> 2.7.18
+|    +--- org.springframework.boot:spring-boot-starter:2.7.18 (*)
+|    +--- org.springframework.boot:spring-boot-test:2.7.18
+|    |    \--- org.springframework.boot:spring-boot:2.7.18 (*)
+|    +--- org.springframework.boot:spring-boot-test-autoconfigure:2.7.18
+|    |    +--- org.springframework.boot:spring-boot:2.7.18 (*)
+|    |    +--- org.springframework.boot:spring-boot-test:2.7.18 (*)
+|    |    \--- org.springframework.boot:spring-boot-autoconfigure:2.7.18 (*)
+|    +--- com.jayway.jsonpath:json-path:2.7.0 -> 2.9.0
+|    +--- jakarta.xml.bind:jakarta.xml.bind-api:2.3.3
+|    |    \--- jakarta.activation:jakarta.activation-api:1.2.2
+|    +--- org.assertj:assertj-core:3.22.0
+|    +--- org.hamcrest:hamcrest:2.2
+|    +--- org.junit.jupiter:junit-jupiter:5.8.2 -> 5.9.0
+|    |    +--- org.junit:junit-bom:5.9.0
+|    |    |    +--- org.junit.jupiter:junit-jupiter:5.9.0 (c)
+|    |    |    +--- org.junit.jupiter:junit-jupiter-api:5.9.0 (c)
+|    |    |    +--- org.junit.platform:junit-platform-commons:1.9.0 (c)
+|    |    |    +--- org.junit.platform:junit-platform-engine:1.9.0 (c)
+|    |    |    \--- org.junit.jupiter:junit-jupiter-params:5.9.0 (c)
+|    |    +--- org.junit.jupiter:junit-jupiter-api:5.9.0
+|    |    |    +--- org.junit:junit-bom:5.9.0 (*)
+|    |    |    +--- org.opentest4j:opentest4j:1.2.0
+|    |    |    +--- org.junit.platform:junit-platform-commons:1.9.0
+|    |    |    |    +--- org.junit:junit-bom:5.9.0 (*)
+|    |    |    |    \--- org.apiguardian:apiguardian-api:1.1.2
+|    |    |    \--- org.apiguardian:apiguardian-api:1.1.2
+|    |    \--- org.junit.jupiter:junit-jupiter-params:5.9.0
+|    |         +--- org.junit:junit-bom:5.9.0 (*)
+|    |         +--- org.junit.jupiter:junit-jupiter-api:5.9.0 (*)
+|    |         \--- org.apiguardian:apiguardian-api:1.1.2
+|    +--- org.mockito:mockito-core:4.5.1
+|    |    +--- net.bytebuddy:byte-buddy:1.12.9 -> 1.12.23
+|    |    \--- net.bytebuddy:byte-buddy-agent:1.12.9 -> 1.12.23
+|    +--- org.mockito:mockito-junit-jupiter:4.5.1
+|    |    \--- org.mockito:mockito-core:4.5.1 (*)
+|    +--- org.skyscreamer:jsonassert:1.5.1
+|    |    \--- com.vaadin.external.google:android-json:0.0.20131108.vaadin1
+|    +--- org.springframework:spring-core:5.3.31 (*)
+|    +--- org.springframework:spring-test:5.3.31
+|    |    \--- org.springframework:spring-core:5.3.31 (*)
+|    \--- org.xmlunit:xmlunit-core:2.9.1
++--- org.spockframework:spock-core -> 2.3-groovy-4.0
+|    +--- org.apache.groovy:groovy:4.0.4 -> 4.0.15 (*)
+|    +--- org.junit:junit-bom:5.9.0 (*)
+|    +--- org.junit.platform:junit-platform-engine -> 1.9.0
+|    |    +--- org.junit:junit-bom:5.9.0 (*)
+|    |    +--- org.opentest4j:opentest4j:1.2.0
+|    |    +--- org.junit.platform:junit-platform-commons:1.9.0 (*)
+|    |    \--- org.apiguardian:apiguardian-api:1.1.2
+|    \--- org.hamcrest:hamcrest:2.2
++--- org.spockframework:spock-spring -> 2.3-groovy-4.0
+|    \--- org.spockframework:spock-core:2.3-groovy-4.0 (*)
++--- org.springframework:spring-test -> 5.3.31 (*)
++--- org.hamcrest:hamcrest-core -> 2.2
+|    \--- org.hamcrest:hamcrest:2.2
++--- org.junit.jupiter:junit-jupiter-api -> 5.9.0 (*)
++--- org.assertj:assertj-core -> 3.22.0
++--- com.netflix.spectator:spectator-reg-micrometer -> 1.0.6
+|    \--- com.netflix.spectator:spectator-api:1.0.6
++--- io.spinnaker.kork:kork-retrofit -> 7.254.0
+|    +--- com.squareup.retrofit:retrofit:1.9.0
+|    |    \--- com.google.code.gson:gson:2.3.1 -> 2.9.1
+|    +--- com.squareup.retrofit2:retrofit:2.8.1 (*)
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21 (*)
+\--- com.squareup.okhttp3:mockwebserver -> 4.9.3
+     +--- com.squareup.okhttp3:okhttp:4.9.3 (*)
+     +--- junit:junit:4.13 -> 4.13.2
+     |    \--- org.hamcrest:hamcrest-core:1.3 -> 2.2 (*)
+     \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.10 -> 1.6.21 (*)
+
+testCompileOnly - Compile only dependencies for source set 'test'. (n)
+No dependencies
+
+testImplementation - Implementation only dependencies for source set 'test'. (n)
++--- org.springframework.boot:spring-boot-starter-test (n)
++--- org.spockframework:spock-core (n)
++--- org.spockframework:spock-spring (n)
++--- org.springframework:spring-test (n)
++--- org.hamcrest:hamcrest-core (n)
++--- org.junit.jupiter:junit-jupiter-api (n)
++--- org.assertj:assertj-core (n)
++--- com.netflix.spectator:spectator-reg-micrometer (n)
++--- io.spinnaker.kork:kork-retrofit (n)
+\--- com.squareup.okhttp3:mockwebserver (n)
+
+testResultsElementsForTest - Directory containing binary results of running tests for the test Test Suite's test target. (n)
+No dependencies
+
+testRuntimeClasspath - Runtime classpath of source set 'test'.
++--- io.spinnaker.kork:kork-bom:7.254.0
+|    +--- org.junit.jupiter:junit-jupiter-api:5.9.0 (c)
+|    +--- org.junit.jupiter:junit-jupiter-engine:5.9.0 (c)
+|    +--- org.junit.vintage:junit-vintage-engine:5.9.0 (c)
+|    +--- org.apache.groovy:groovy:4.0.15 (c)
+|    +--- com.squareup.okhttp3:mockwebserver:4.9.3 (c)
+|    +--- org.springframework:spring-test:5.3.31 (c)
+|    +--- org.assertj:assertj-core:3.22.0 (c)
+|    +--- org.hamcrest:hamcrest-core:2.2 (c)
+|    +--- javax.validation:validation-api:2.0.1.Final (c)
+|    +--- org.springframework.boot:spring-boot-starter-actuator:2.7.18 (c)
+|    +--- org.springframework.boot:spring-boot-starter-test:2.7.18 (c)
+|    +--- org.spockframework:spock-core:2.3-groovy-4.0 (c)
+|    +--- org.spockframework:spock-spring:2.3-groovy-4.0 (c)
+|    +--- cglib:cglib-nodep:3.3.0 (c)
+|    +--- com.netflix.spectator:spectator-reg-micrometer:1.0.6 (c)
+|    +--- com.squareup.retrofit2:converter-jackson:2.8.1 (c)
+|    +--- com.squareup.retrofit2:retrofit:2.8.1 (c)
+|    +--- net.logstash.logback:logstash-logback-encoder:4.11 (c)
+|    +--- org.objenesis:objenesis:2.5.1 (c)
+|    +--- io.spinnaker.kork:kork-artifacts:7.254.0 (c)
+|    +--- io.spinnaker.kork:kork-core:7.254.0 (c)
+|    +--- io.spinnaker.kork:kork-jedis:7.254.0 (c)
+|    +--- io.spinnaker.kork:kork-retrofit:7.254.0 (c)
+|    +--- org.springframework.security:spring-security-core:5.7.11 (c)
+|    +--- com.fasterxml.jackson.core:jackson-annotations:2.13.5 (c)
+|    +--- com.google.code.findbugs:jsr305:3.0.2 (c)
+|    +--- org.slf4j:slf4j-api:1.7.36 (c)
+|    +--- org.springframework:spring-core:5.3.31 (c)
+|    +--- org.springframework.boot:spring-boot-starter-web:2.7.18 (c)
+|    +--- org.junit.platform:junit-platform-commons:1.9.0 (c)
+|    +--- org.junit.platform:junit-platform-engine:1.9.0 (c)
+|    +--- junit:junit:4.13.2 (c)
+|    +--- com.squareup.okhttp3:okhttp:4.9.3 (c)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21 (c)
+|    +--- org.hamcrest:hamcrest:2.2 (c)
+|    +--- org.springframework.boot:spring-boot-starter:2.7.18 (c)
+|    +--- org.springframework.boot:spring-boot-actuator-autoconfigure:2.7.18 (c)
+|    +--- io.micrometer:micrometer-core:1.9.17 (c)
+|    +--- org.springframework.boot:spring-boot-test:2.7.18 (c)
+|    +--- org.springframework.boot:spring-boot-test-autoconfigure:2.7.18 (c)
+|    +--- com.jayway.jsonpath:json-path:2.9.0 (c)
+|    +--- jakarta.xml.bind:jakarta.xml.bind-api:2.3.3 (c)
+|    +--- org.junit.jupiter:junit-jupiter:5.9.0 (c)
+|    +--- org.mockito:mockito-core:4.5.1 (c)
+|    +--- org.mockito:mockito-junit-jupiter:4.5.1 (c)
+|    +--- org.skyscreamer:jsonassert:1.5.1 (c)
+|    +--- org.xmlunit:xmlunit-core:2.9.1 (c)
+|    +--- com.netflix.spectator:spectator-api:1.0.6 (c)
+|    +--- com.fasterxml.jackson.core:jackson-databind:2.13.5 (c)
+|    +--- ch.qos.logback:logback-core:1.2.13 (c)
+|    +--- software.amazon.awssdk:s3:2.23.7 (c)
+|    +--- software.amazon.awssdk:sts:2.23.7 (c)
+|    +--- com.hubspot.jinjava:jinjava:2.7.1 (c)
+|    +--- io.spinnaker.kork:kork-annotations:7.254.0 (c)
+|    +--- io.spinnaker.kork:kork-exceptions:7.254.0 (c)
+|    +--- io.spinnaker.kork:kork-security:7.254.0 (c)
+|    +--- org.apache.httpcomponents:httpclient:4.5.14 (c)
+|    +--- org.springframework.boot:spring-boot-autoconfigure:2.7.18 (c)
+|    +--- org.apache.logging.log4j:log4j-api:2.20.0 (c)
+|    +--- io.spinnaker.kork:kork-api:7.254.0 (c)
+|    +--- org.springframework.boot:spring-boot-starter-aop:2.7.18 (c)
+|    +--- io.github.resilience4j:resilience4j-annotations:1.7.0 (c)
+|    +--- io.github.resilience4j:resilience4j-retry:1.7.0 (c)
+|    +--- io.github.resilience4j:resilience4j-spring-boot2:1.7.0 (c)
+|    +--- com.netflix.spectator:spectator-ext-gc:1.0.6 (c)
+|    +--- com.netflix.spectator:spectator-ext-jvm:1.0.6 (c)
+|    +--- redis.clients:jedis:3.8.0 (c)
+|    +--- org.apache.commons:commons-lang3:3.12.0 (c)
+|    +--- com.squareup.retrofit:retrofit:1.9.0 (c)
+|    +--- io.spinnaker.kork:kork-web:7.254.0 (c)
+|    +--- com.jakewharton.retrofit:retrofit1-okhttp3-client:1.1.0 (c)
+|    +--- com.squareup.retrofit:converter-jackson:1.9.0 (c)
+|    +--- io.zipkin.brave:brave-instrumentation-okhttp3:5.12.3 (c)
+|    +--- com.squareup.okhttp3:logging-interceptor:4.9.3 (c)
+|    +--- com.google.guava:guava:33.0.0-jre (c)
+|    +--- org.springframework.security:spring-security-crypto:5.7.11 (c)
+|    +--- org.springframework:spring-aop:5.3.31 (c)
+|    +--- org.springframework:spring-beans:5.3.31 (c)
+|    +--- org.springframework:spring-context:5.3.31 (c)
+|    +--- org.springframework:spring-expression:5.3.31 (c)
+|    +--- org.springframework:spring-jcl:5.3.31 (c)
+|    +--- org.springframework.boot:spring-boot-starter-json:2.7.18 (c)
+|    +--- org.springframework.boot:spring-boot-starter-tomcat:2.7.18 (c)
+|    +--- org.springframework:spring-web:5.3.31 (c)
+|    +--- org.springframework:spring-webmvc:5.3.31 (c)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.6.21 (c)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.21 (c)
+|    +--- org.springframework.boot:spring-boot:2.7.18 (c)
+|    +--- org.springframework.boot:spring-boot-starter-logging:2.7.18 (c)
+|    +--- jakarta.annotation:jakarta.annotation-api:1.3.5 (c)
+|    +--- org.yaml:snakeyaml:1.31 (c)
+|    +--- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.5 (c)
+|    +--- org.springframework.boot:spring-boot-actuator:2.7.18 (c)
+|    +--- net.minidev:json-smart:2.4.11 (c)
+|    +--- jakarta.activation:jakarta.activation-api:1.2.2 (c)
+|    +--- org.junit.jupiter:junit-jupiter-params:5.9.0 (c)
+|    +--- net.bytebuddy:byte-buddy:1.12.23 (c)
+|    +--- net.bytebuddy:byte-buddy-agent:1.12.23 (c)
+|    +--- com.fasterxml.jackson.core:jackson-core:2.13.5 (c)
+|    +--- software.amazon.awssdk:aws-xml-protocol:2.23.7 (c)
+|    +--- software.amazon.awssdk:protocol-core:2.23.7 (c)
+|    +--- software.amazon.awssdk:arns:2.23.7 (c)
+|    +--- software.amazon.awssdk:profiles:2.23.7 (c)
+|    +--- software.amazon.awssdk:http-auth:2.23.7 (c)
+|    +--- software.amazon.awssdk:identity-spi:2.23.7 (c)
+|    +--- software.amazon.awssdk:http-auth-spi:2.23.7 (c)
+|    +--- software.amazon.awssdk:http-auth-aws:2.23.7 (c)
+|    +--- software.amazon.awssdk:checksums:2.23.7 (c)
+|    +--- software.amazon.awssdk:checksums-spi:2.23.7 (c)
+|    +--- software.amazon.awssdk:sdk-core:2.23.7 (c)
+|    +--- software.amazon.awssdk:auth:2.23.7 (c)
+|    +--- software.amazon.awssdk:http-client-spi:2.23.7 (c)
+|    +--- software.amazon.awssdk:regions:2.23.7 (c)
+|    +--- software.amazon.awssdk:annotations:2.23.7 (c)
+|    +--- software.amazon.awssdk:utils:2.23.7 (c)
+|    +--- software.amazon.awssdk:aws-core:2.23.7 (c)
+|    +--- software.amazon.awssdk:metrics-spi:2.23.7 (c)
+|    +--- software.amazon.awssdk:json-utils:2.23.7 (c)
+|    +--- software.amazon.awssdk:apache-client:2.23.7 (c)
+|    +--- software.amazon.awssdk:netty-nio-client:2.23.7 (c)
+|    +--- software.amazon.awssdk:aws-query-protocol:2.23.7 (c)
+|    +--- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.13.5 (c)
+|    +--- org.apache.httpcomponents:httpcore:4.4.16 (c)
+|    +--- commons-codec:commons-codec:1.15 (c)
+|    +--- io.spinnaker.kork:kork-plugins-api:7.254.0 (c)
+|    +--- org.aspectj:aspectjweaver:1.9.7 (c)
+|    +--- io.github.resilience4j:resilience4j-core:1.7.0 (c)
+|    +--- io.github.resilience4j:resilience4j-spring:1.7.0 (c)
+|    +--- io.github.resilience4j:resilience4j-micrometer:1.7.0 (c)
+|    +--- org.apache.commons:commons-pool2:2.11.1 (c)
+|    +--- com.google.code.gson:gson:2.9.1 (c)
+|    +--- io.spinnaker.kork:kork-crypto:7.254.0 (c)
+|    +--- org.springframework.boot:spring-boot-starter-webflux:2.7.18 (c)
+|    +--- org.springframework.boot:spring-boot-starter-security:2.7.18 (c)
+|    +--- com.netflix.spectator:spectator-web-spring:1.0.6 (c)
+|    +--- org.hibernate.validator:hibernate-validator:6.2.5.Final (c)
+|    +--- io.zipkin.brave:brave-instrumentation-http:5.12.3 (c)
+|    +--- io.zipkin.brave:brave:5.12.3 (c)
+|    +--- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.13.5 (c)
+|    +--- com.fasterxml.jackson.module:jackson-module-parameter-names:2.13.5 (c)
+|    +--- org.apache.tomcat.embed:tomcat-embed-core:9.0.83 (c)
+|    +--- org.apache.tomcat.embed:tomcat-embed-el:9.0.83 (c)
+|    +--- org.apache.tomcat.embed:tomcat-embed-websocket:9.0.83 (c)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.6.21 (c)
+|    +--- org.jetbrains:annotations:19.0.0 (c)
+|    +--- ch.qos.logback:logback-classic:1.2.13 (c)
+|    +--- org.apache.logging.log4j:log4j-to-slf4j:2.20.0 (c)
+|    +--- org.slf4j:jul-to-slf4j:1.7.36 (c)
+|    +--- org.reactivestreams:reactive-streams:1.0.4 (c)
+|    +--- software.amazon.awssdk:third-party-jackson-core:2.23.7 (c)
+|    +--- io.netty:netty-codec-http:4.1.101.Final (c)
+|    +--- io.netty:netty-codec-http2:4.1.101.Final (c)
+|    +--- io.netty:netty-codec:4.1.101.Final (c)
+|    +--- io.netty:netty-transport:4.1.101.Final (c)
+|    +--- io.netty:netty-common:4.1.101.Final (c)
+|    +--- io.netty:netty-buffer:4.1.101.Final (c)
+|    +--- io.netty:netty-handler:4.1.101.Final (c)
+|    +--- io.netty:netty-transport-classes-epoll:4.1.101.Final (c)
+|    +--- io.netty:netty-resolver:4.1.101.Final (c)
+|    +--- javax.annotation:javax.annotation-api:1.3.2 (c)
+|    +--- org.pf4j:pf4j:3.10.0 (c)
+|    +--- io.github.resilience4j:resilience4j-consumer:1.7.0 (c)
+|    +--- org.bouncycastle:bcpkix-jdk18on:1.77 (c)
+|    +--- org.springframework.boot:spring-boot-starter-reactor-netty:2.7.18 (c)
+|    +--- org.springframework:spring-webflux:5.3.31 (c)
+|    +--- org.springframework.security:spring-security-config:5.7.11 (c)
+|    +--- org.springframework.security:spring-security-web:5.7.11 (c)
+|    +--- jakarta.validation:jakarta.validation-api:2.0.2 (c)
+|    +--- org.jboss.logging:jboss-logging:3.4.3.Final (c)
+|    +--- com.fasterxml:classmate:1.5.1 (c)
+|    +--- io.zipkin.reporter2:zipkin-reporter-brave:2.15.0 (c)
+|    +--- io.netty:netty-transport-native-unix-common:4.1.101.Final (c)
+|    +--- io.github.resilience4j:resilience4j-circuitbreaker:1.7.0 (c)
+|    +--- io.github.resilience4j:resilience4j-ratelimiter:1.7.0 (c)
+|    +--- io.github.resilience4j:resilience4j-bulkhead:1.7.0 (c)
+|    +--- io.github.resilience4j:resilience4j-timelimiter:1.7.0 (c)
+|    +--- io.github.resilience4j:resilience4j-circularbuffer:1.7.0 (c)
+|    +--- org.bouncycastle:bcprov-jdk18on:1.77 (c)
+|    +--- io.projectreactor.netty:reactor-netty-http:1.0.39 (c)
+|    +--- io.projectreactor:reactor-core:3.4.34 (c)
+|    +--- io.zipkin.reporter2:zipkin-reporter:2.15.0 (c)
+|    +--- io.zipkin.zipkin2:zipkin:2.21.1 (c)
+|    +--- io.netty:netty-resolver-dns:4.1.101.Final (c)
+|    +--- io.netty:netty-resolver-dns-native-macos:4.1.101.Final (c)
+|    +--- io.netty:netty-transport-native-epoll:4.1.101.Final (c)
+|    +--- io.projectreactor.netty:reactor-netty-core:1.0.39 (c)
+|    +--- io.netty:netty-codec-dns:4.1.101.Final (c)
+|    +--- io.netty:netty-resolver-dns-classes-macos:4.1.101.Final (c)
+|    +--- io.netty:netty-handler-proxy:4.1.101.Final (c)
+|    \--- io.netty:netty-codec-socks:4.1.101.Final (c)
++--- org.springframework.boot:spring-boot-starter-actuator -> 2.7.18
+|    +--- org.springframework.boot:spring-boot-starter:2.7.18
+|    |    +--- org.springframework.boot:spring-boot:2.7.18
+|    |    |    +--- org.springframework:spring-core:5.3.31
+|    |    |    |    \--- org.springframework:spring-jcl:5.3.31
+|    |    |    \--- org.springframework:spring-context:5.3.31
+|    |    |         +--- org.springframework:spring-aop:5.3.31
+|    |    |         |    +--- org.springframework:spring-beans:5.3.31
+|    |    |         |    |    \--- org.springframework:spring-core:5.3.31 (*)
+|    |    |         |    \--- org.springframework:spring-core:5.3.31 (*)
+|    |    |         +--- org.springframework:spring-beans:5.3.31 (*)
+|    |    |         +--- org.springframework:spring-core:5.3.31 (*)
+|    |    |         \--- org.springframework:spring-expression:5.3.31
+|    |    |              \--- org.springframework:spring-core:5.3.31 (*)
+|    |    +--- org.springframework.boot:spring-boot-autoconfigure:2.7.18
+|    |    |    \--- org.springframework.boot:spring-boot:2.7.18 (*)
+|    |    +--- org.springframework.boot:spring-boot-starter-logging:2.7.18
+|    |    |    +--- ch.qos.logback:logback-classic:1.2.12 -> 1.2.13
+|    |    |    |    +--- ch.qos.logback:logback-core:1.2.13
+|    |    |    |    \--- org.slf4j:slf4j-api:1.7.32 -> 1.7.36
+|    |    |    +--- org.apache.logging.log4j:log4j-to-slf4j:2.17.2 -> 2.20.0
+|    |    |    |    +--- org.apache.logging.log4j:log4j-api:2.20.0
+|    |    |    |    \--- org.slf4j:slf4j-api:1.7.36
+|    |    |    \--- org.slf4j:jul-to-slf4j:1.7.36
+|    |    |         \--- org.slf4j:slf4j-api:1.7.36
+|    |    +--- jakarta.annotation:jakarta.annotation-api:1.3.5
+|    |    +--- org.springframework:spring-core:5.3.31 (*)
+|    |    \--- org.yaml:snakeyaml:1.30 -> 1.31
+|    +--- org.springframework.boot:spring-boot-actuator-autoconfigure:2.7.18
+|    |    +--- com.fasterxml.jackson.core:jackson-databind:2.13.5
+|    |    |    +--- com.fasterxml.jackson.core:jackson-annotations:2.13.5
+|    |    |    |    \--- com.fasterxml.jackson:jackson-bom:2.13.5
+|    |    |    |         +--- com.fasterxml.jackson.core:jackson-annotations:2.13.5 (c)
+|    |    |    |         +--- com.fasterxml.jackson.core:jackson-core:2.13.5 (c)
+|    |    |    |         +--- com.fasterxml.jackson.core:jackson-databind:2.13.5 (c)
+|    |    |    |         +--- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.13.5 (c)
+|    |    |    |         +--- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.5 (c)
+|    |    |    |         +--- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.13.5 (c)
+|    |    |    |         \--- com.fasterxml.jackson.module:jackson-module-parameter-names:2.13.5 (c)
+|    |    |    +--- com.fasterxml.jackson.core:jackson-core:2.13.5
+|    |    |    |    \--- com.fasterxml.jackson:jackson-bom:2.13.5 (*)
+|    |    |    \--- com.fasterxml.jackson:jackson-bom:2.13.5 (*)
+|    |    +--- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.5
+|    |    |    +--- com.fasterxml.jackson.core:jackson-annotations:2.13.5 (*)
+|    |    |    +--- com.fasterxml.jackson.core:jackson-core:2.13.5 (*)
+|    |    |    +--- com.fasterxml.jackson.core:jackson-databind:2.13.5 (*)
+|    |    |    \--- com.fasterxml.jackson:jackson-bom:2.13.5 (*)
+|    |    +--- org.springframework.boot:spring-boot-actuator:2.7.18
+|    |    |    \--- org.springframework.boot:spring-boot:2.7.18 (*)
+|    |    +--- org.springframework.boot:spring-boot:2.7.18 (*)
+|    |    \--- org.springframework.boot:spring-boot-autoconfigure:2.7.18 (*)
+|    \--- io.micrometer:micrometer-core:1.9.17
+|         +--- org.hdrhistogram:HdrHistogram:2.1.12
+|         \--- org.latencyutils:LatencyUtils:2.0.3
++--- net.logstash.logback:logstash-logback-encoder -> 4.11
+|    +--- ch.qos.logback:logback-core:1.2.3 -> 1.2.13
+|    \--- com.fasterxml.jackson.core:jackson-databind:2.8.9 -> 2.13.5 (*)
++--- org.apache.groovy:groovy -> 4.0.15
+|    \--- org.apache.groovy:groovy-bom:4.0.15
+|         \--- org.apache.groovy:groovy:4.0.15 (c)
++--- io.spinnaker.kork:kork-artifacts -> 7.254.0
+|    +--- software.amazon.awssdk:s3:2.23.7
+|    |    +--- software.amazon.awssdk:aws-xml-protocol:2.23.7
+|    |    |    +--- software.amazon.awssdk:aws-query-protocol:2.23.7
+|    |    |    |    +--- software.amazon.awssdk:protocol-core:2.23.7
+|    |    |    |    |    +--- software.amazon.awssdk:sdk-core:2.23.7
+|    |    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    +--- software.amazon.awssdk:http-client-spi:2.23.7
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7
+|    |    |    |    |    |    |    |    +--- org.reactivestreams:reactive-streams:1.0.4
+|    |    |    |    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    |    |    \--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:metrics-spi:2.23.7
+|    |    |    |    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    |    |    \--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    |    |    \--- org.reactivestreams:reactive-streams:1.0.4
+|    |    |    |    |    |    +--- software.amazon.awssdk:metrics-spi:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:endpoints-spi:2.23.7
+|    |    |    |    |    |    |    \--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    +--- software.amazon.awssdk:http-auth-spi:2.23.7
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |    |    |    |    |    |    +--- org.reactivestreams:reactive-streams:1.0.4
+|    |    |    |    |    |    |    \--- software.amazon.awssdk:identity-spi:2.23.7
+|    |    |    |    |    |    |         +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    |         \--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:http-auth-aws:2.23.7
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:identity-spi:2.23.7 (*)
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:http-auth-spi:2.23.7 (*)
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:checksums-spi:2.23.7
+|    |    |    |    |    |    |    |    \--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    |    \--- software.amazon.awssdk:checksums:2.23.7
+|    |    |    |    |    |    |         +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    |         \--- software.amazon.awssdk:checksums-spi:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:checksums-spi:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:checksums:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:identity-spi:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:profiles:2.23.7
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    |    |    \--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    |    |    |    |    \--- org.reactivestreams:reactive-streams:1.0.4
+|    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    \--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |    |    |    +--- software.amazon.awssdk:aws-core:2.23.7
+|    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    +--- software.amazon.awssdk:regions:2.23.7
+|    |    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:sdk-core:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:profiles:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:json-utils:2.23.7
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    |    \--- software.amazon.awssdk:third-party-jackson-core:2.23.7
+|    |    |    |    |    |    \--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    |    |    |    +--- software.amazon.awssdk:auth:2.23.7
+|    |    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:sdk-core:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:identity-spi:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:regions:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:profiles:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:json-utils:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:http-auth-aws:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:http-auth:2.23.7
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |    |    |    |    |    |    +--- software.amazon.awssdk:http-auth-spi:2.23.7 (*)
+|    |    |    |    |    |    |    \--- software.amazon.awssdk:identity-spi:2.23.7 (*)
+|    |    |    |    |    |    +--- software.amazon.awssdk:http-auth-spi:2.23.7 (*)
+|    |    |    |    |    |    \--- software.amazon.eventstream:eventstream:1.0.1
+|    |    |    |    |    +--- software.amazon.awssdk:http-auth-spi:2.23.7 (*)
+|    |    |    |    |    +--- software.amazon.awssdk:identity-spi:2.23.7 (*)
+|    |    |    |    |    +--- software.amazon.awssdk:http-auth:2.23.7 (*)
+|    |    |    |    |    +--- software.amazon.awssdk:profiles:2.23.7 (*)
+|    |    |    |    |    +--- software.amazon.awssdk:sdk-core:2.23.7 (*)
+|    |    |    |    |    +--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |    |    |    |    +--- software.amazon.awssdk:metrics-spi:2.23.7 (*)
+|    |    |    |    |    +--- software.amazon.awssdk:endpoints-spi:2.23.7 (*)
+|    |    |    |    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    |    |    \--- software.amazon.eventstream:eventstream:1.0.1
+|    |    |    |    +--- software.amazon.awssdk:sdk-core:2.23.7 (*)
+|    |    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    |    +--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |    |    |    \--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    +--- software.amazon.awssdk:protocol-core:2.23.7 (*)
+|    |    |    +--- software.amazon.awssdk:aws-core:2.23.7 (*)
+|    |    |    +--- software.amazon.awssdk:sdk-core:2.23.7 (*)
+|    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    +--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |    |    \--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:protocol-core:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:arns:2.23.7
+|    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    \--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:profiles:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:crt-core:2.23.7
+|    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    \--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:http-auth:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:identity-spi:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:http-auth-spi:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:http-auth-aws:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:checksums:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:checksums-spi:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:sdk-core:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:auth:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:regions:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:aws-core:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:metrics-spi:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:json-utils:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:endpoints-spi:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:apache-client:2.23.7
+|    |    |    +--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |    |    +--- software.amazon.awssdk:metrics-spi:2.23.7 (*)
+|    |    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    |    +--- org.apache.httpcomponents:httpclient:4.5.13 -> 4.5.14
+|    |    |    |    +--- org.apache.httpcomponents:httpcore:4.4.16
+|    |    |    |    \--- commons-codec:commons-codec:1.11 -> 1.15
+|    |    |    +--- org.apache.httpcomponents:httpcore:4.4.13 -> 4.4.16
+|    |    |    \--- commons-codec:commons-codec:1.15
+|    |    \--- software.amazon.awssdk:netty-nio-client:2.23.7
+|    |         +--- software.amazon.awssdk:annotations:2.23.7
+|    |         +--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |         +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |         +--- software.amazon.awssdk:metrics-spi:2.23.7 (*)
+|    |         +--- io.netty:netty-codec-http:4.1.100.Final -> 4.1.101.Final
+|    |         |    +--- io.netty:netty-common:4.1.101.Final
+|    |         |    +--- io.netty:netty-buffer:4.1.101.Final
+|    |         |    |    \--- io.netty:netty-common:4.1.101.Final
+|    |         |    +--- io.netty:netty-transport:4.1.101.Final
+|    |         |    |    +--- io.netty:netty-common:4.1.101.Final
+|    |         |    |    +--- io.netty:netty-buffer:4.1.101.Final (*)
+|    |         |    |    \--- io.netty:netty-resolver:4.1.101.Final
+|    |         |    |         \--- io.netty:netty-common:4.1.101.Final
+|    |         |    +--- io.netty:netty-codec:4.1.101.Final
+|    |         |    |    +--- io.netty:netty-common:4.1.101.Final
+|    |         |    |    +--- io.netty:netty-buffer:4.1.101.Final (*)
+|    |         |    |    \--- io.netty:netty-transport:4.1.101.Final (*)
+|    |         |    \--- io.netty:netty-handler:4.1.101.Final
+|    |         |         +--- io.netty:netty-common:4.1.101.Final
+|    |         |         +--- io.netty:netty-resolver:4.1.101.Final (*)
+|    |         |         +--- io.netty:netty-buffer:4.1.101.Final (*)
+|    |         |         +--- io.netty:netty-transport:4.1.101.Final (*)
+|    |         |         +--- io.netty:netty-transport-native-unix-common:4.1.101.Final
+|    |         |         |    +--- io.netty:netty-common:4.1.101.Final
+|    |         |         |    +--- io.netty:netty-buffer:4.1.101.Final (*)
+|    |         |         |    \--- io.netty:netty-transport:4.1.101.Final (*)
+|    |         |         \--- io.netty:netty-codec:4.1.101.Final (*)
+|    |         +--- io.netty:netty-codec-http2:4.1.100.Final -> 4.1.101.Final
+|    |         |    +--- io.netty:netty-common:4.1.101.Final
+|    |         |    +--- io.netty:netty-buffer:4.1.101.Final (*)
+|    |         |    +--- io.netty:netty-transport:4.1.101.Final (*)
+|    |         |    +--- io.netty:netty-codec:4.1.101.Final (*)
+|    |         |    +--- io.netty:netty-handler:4.1.101.Final (*)
+|    |         |    \--- io.netty:netty-codec-http:4.1.101.Final (*)
+|    |         +--- io.netty:netty-codec:4.1.100.Final -> 4.1.101.Final (*)
+|    |         +--- io.netty:netty-transport:4.1.100.Final -> 4.1.101.Final (*)
+|    |         +--- io.netty:netty-common:4.1.100.Final -> 4.1.101.Final
+|    |         +--- io.netty:netty-buffer:4.1.100.Final -> 4.1.101.Final (*)
+|    |         +--- io.netty:netty-handler:4.1.100.Final -> 4.1.101.Final (*)
+|    |         +--- io.netty:netty-transport-classes-epoll:4.1.100.Final -> 4.1.101.Final
+|    |         |    +--- io.netty:netty-common:4.1.101.Final
+|    |         |    +--- io.netty:netty-buffer:4.1.101.Final (*)
+|    |         |    +--- io.netty:netty-transport:4.1.101.Final (*)
+|    |         |    \--- io.netty:netty-transport-native-unix-common:4.1.101.Final (*)
+|    |         +--- io.netty:netty-resolver:4.1.100.Final -> 4.1.101.Final (*)
+|    |         +--- org.reactivestreams:reactive-streams:1.0.4
+|    |         \--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    +--- software.amazon.awssdk:sts:2.23.7
+|    |    +--- software.amazon.awssdk:aws-query-protocol:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:protocol-core:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:profiles:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:http-auth-aws:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:sdk-core:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:auth:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:http-auth-spi:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:http-auth:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:identity-spi:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:http-client-spi:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:regions:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:annotations:2.23.7
+|    |    +--- software.amazon.awssdk:utils:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:aws-core:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:metrics-spi:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:json-utils:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:endpoints-spi:2.23.7 (*)
+|    |    +--- software.amazon.awssdk:apache-client:2.23.7 (*)
+|    |    \--- software.amazon.awssdk:netty-nio-client:2.23.7 (*)
+|    +--- com.hubspot.jinjava:jinjava:2.7.1
+|    |    +--- org.slf4j:slf4j-api:1.7.25 -> 1.7.36
+|    |    +--- com.google.guava:guava:31.1-jre -> 33.0.0-jre
+|    |    |    +--- com.google.guava:failureaccess:1.0.2
+|    |    |    +--- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava
+|    |    |    +--- com.google.code.findbugs:jsr305:3.0.2
+|    |    |    +--- org.checkerframework:checker-qual:3.41.0
+|    |    |    \--- com.google.errorprone:error_prone_annotations:2.23.0
+|    |    +--- org.javassist:javassist:3.24.1-GA
+|    |    +--- com.google.re2j:re2j:1.2
+|    |    +--- org.apache.commons:commons-lang3:3.9 -> 3.12.0
+|    |    +--- commons-net:commons-net:3.9.0
+|    |    +--- com.googlecode.java-ipv6:java-ipv6:0.17
+|    |    +--- com.google.code.findbugs:annotations:3.0.1
+|    |    +--- com.fasterxml.jackson.core:jackson-annotations:2.14.0 -> 2.13.5 (*)
+|    |    +--- com.fasterxml.jackson.core:jackson-databind:2.14.0 -> 2.13.5 (*)
+|    |    +--- com.fasterxml.jackson.core:jackson-core:2.14.0 -> 2.13.5 (*)
+|    |    +--- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.14.0 -> 2.13.5
+|    |    |    +--- com.fasterxml.jackson.core:jackson-databind:2.13.5 (*)
+|    |    |    +--- org.yaml:snakeyaml:1.31
+|    |    |    +--- com.fasterxml.jackson.core:jackson-core:2.13.5 (*)
+|    |    |    \--- com.fasterxml.jackson:jackson-bom:2.13.5 (*)
+|    |    \--- ch.obermuhlner:big-math:2.0.0
+|    +--- io.spinnaker.kork:kork-annotations:7.254.0
+|    |    \--- com.google.code.findbugs:jsr305:3.0.2
+|    +--- io.spinnaker.kork:kork-exceptions:7.254.0
+|    |    \--- com.google.code.findbugs:jsr305:3.0.2
+|    +--- io.spinnaker.kork:kork-security:7.254.0
+|    |    +--- org.springframework.security:spring-security-core:5.7.11
+|    |    |    +--- org.springframework.security:spring-security-crypto:5.7.11
+|    |    |    +--- org.springframework:spring-aop:5.3.29 -> 5.3.31 (*)
+|    |    |    +--- org.springframework:spring-beans:5.3.29 -> 5.3.31 (*)
+|    |    |    +--- org.springframework:spring-context:5.3.29 -> 5.3.31 (*)
+|    |    |    +--- org.springframework:spring-core:5.3.29 -> 5.3.31 (*)
+|    |    |    \--- org.springframework:spring-expression:5.3.29 -> 5.3.31 (*)
+|    |    +--- com.fasterxml.jackson.core:jackson-annotations:2.13.5 (*)
+|    |    +--- io.spinnaker.kork:kork-core:7.254.0
+|    |    |    +--- io.spinnaker.kork:kork-api:7.254.0
+|    |    |    |    +--- io.spinnaker.kork:kork-plugins-api:7.254.0
+|    |    |    |    |    +--- org.slf4j:slf4j-api:1.7.36
+|    |    |    |    |    +--- javax.annotation:javax.annotation-api:1.3.2
+|    |    |    |    |    +--- io.spinnaker.kork:kork-annotations:7.254.0 (*)
+|    |    |    |    |    +--- org.pf4j:pf4j:3.10.0
+|    |    |    |    |    |    +--- org.slf4j:slf4j-api:2.0.6 -> 1.7.36
+|    |    |    |    |    |    \--- com.github.zafarkhaja:java-semver:0.9.0
+|    |    |    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21
+|    |    |    |    |         +--- org.jetbrains.kotlin:kotlin-stdlib:1.6.21
+|    |    |    |    |         |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.6.21
+|    |    |    |    |         |    \--- org.jetbrains:annotations:13.0 -> 19.0.0
+|    |    |    |    |         \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.21
+|    |    |    |    |              \--- org.jetbrains.kotlin:kotlin-stdlib:1.6.21 (*)
+|    |    |    |    \--- io.spinnaker.kork:kork-annotations:7.254.0 (*)
+|    |    |    +--- io.spinnaker.kork:kork-annotations:7.254.0 (*)
+|    |    |    +--- io.spinnaker.kork:kork-exceptions:7.254.0 (*)
+|    |    |    +--- org.springframework.boot:spring-boot-autoconfigure:2.7.18 (*)
+|    |    |    +--- org.springframework.boot:spring-boot-starter-aop:2.7.18
+|    |    |    |    +--- org.springframework.boot:spring-boot-starter:2.7.18 (*)
+|    |    |    |    +--- org.springframework:spring-aop:5.3.31 (*)
+|    |    |    |    \--- org.aspectj:aspectjweaver:1.9.7
+|    |    |    +--- org.springframework.boot:spring-boot-starter-actuator:2.7.18 (*)
+|    |    |    +--- com.netflix.spectator:spectator-api:1.0.6
+|    |    |    |    \--- org.slf4j:slf4j-api:1.7.32 -> 1.7.36
+|    |    |    +--- com.google.code.findbugs:jsr305:3.0.2
+|    |    |    +--- io.github.resilience4j:resilience4j-annotations:1.7.0
+|    |    |    |    +--- io.vavr:vavr:0.10.2
+|    |    |    |    |    \--- io.vavr:vavr-match:0.10.2
+|    |    |    |    \--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    |    +--- io.github.resilience4j:resilience4j-retry:1.7.0
+|    |    |    |    +--- io.vavr:vavr:0.10.2 (*)
+|    |    |    |    +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    |    |    \--- io.github.resilience4j:resilience4j-core:1.7.0
+|    |    |    |         +--- io.vavr:vavr:0.10.2 (*)
+|    |    |    |         \--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    |    +--- io.github.resilience4j:resilience4j-spring-boot2:1.7.0
+|    |    |    |    +--- io.vavr:vavr:0.10.2 (*)
+|    |    |    |    +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    |    |    +--- io.github.resilience4j:resilience4j-spring:1.7.0
+|    |    |    |    |    +--- io.vavr:vavr:0.10.2 (*)
+|    |    |    |    |    +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    |    |    |    +--- io.github.resilience4j:resilience4j-annotations:1.7.0 (*)
+|    |    |    |    |    +--- io.github.resilience4j:resilience4j-consumer:1.7.0
+|    |    |    |    |    |    +--- io.vavr:vavr:0.10.2 (*)
+|    |    |    |    |    |    +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    |    |    |    |    +--- io.github.resilience4j:resilience4j-core:1.7.0 (*)
+|    |    |    |    |    |    \--- io.github.resilience4j:resilience4j-circularbuffer:1.7.0
+|    |    |    |    |    |         +--- io.vavr:vavr:0.10.2 (*)
+|    |    |    |    |    |         \--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    |    |    |    \--- io.github.resilience4j:resilience4j-framework-common:1.7.0
+|    |    |    |    |         +--- io.vavr:vavr:0.10.2 (*)
+|    |    |    |    |         +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    |    |    |         +--- io.github.resilience4j:resilience4j-core:1.7.0 (*)
+|    |    |    |    |         +--- io.github.resilience4j:resilience4j-circuitbreaker:1.7.0
+|    |    |    |    |         |    +--- io.vavr:vavr:0.10.2 (*)
+|    |    |    |    |         |    +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    |    |    |         |    \--- io.github.resilience4j:resilience4j-core:1.7.0 (*)
+|    |    |    |    |         +--- io.github.resilience4j:resilience4j-ratelimiter:1.7.0
+|    |    |    |    |         |    +--- io.vavr:vavr:0.10.2 (*)
+|    |    |    |    |         |    +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    |    |    |         |    \--- io.github.resilience4j:resilience4j-core:1.7.0 (*)
+|    |    |    |    |         +--- io.github.resilience4j:resilience4j-retry:1.7.0 (*)
+|    |    |    |    |         +--- io.github.resilience4j:resilience4j-bulkhead:1.7.0
+|    |    |    |    |         |    +--- io.vavr:vavr:0.10.2 (*)
+|    |    |    |    |         |    +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    |    |    |         |    \--- io.github.resilience4j:resilience4j-core:1.7.0 (*)
+|    |    |    |    |         \--- io.github.resilience4j:resilience4j-timelimiter:1.7.0
+|    |    |    |    |              +--- io.vavr:vavr:0.10.2 (*)
+|    |    |    |    |              +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    |    |    |              \--- io.github.resilience4j:resilience4j-core:1.7.0 (*)
+|    |    |    |    \--- io.github.resilience4j:resilience4j-micrometer:1.7.0
+|    |    |    |         +--- io.vavr:vavr:0.10.2 (*)
+|    |    |    |         \--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    |    +--- org.apache.logging.log4j:log4j-api:2.20.0
+|    |    |    +--- com.fasterxml.jackson.core:jackson-annotations:2.13.5 (*)
+|    |    |    +--- com.fasterxml.jackson.core:jackson-databind:2.13.5 (*)
+|    |    |    +--- com.netflix.spectator:spectator-ext-gc:1.0.6
+|    |    |    |    +--- org.slf4j:slf4j-api:1.7.32 -> 1.7.36
+|    |    |    |    \--- com.netflix.spectator:spectator-api:1.0.6 (*)
+|    |    |    +--- com.netflix.spectator:spectator-ext-jvm:1.0.6
+|    |    |    |    +--- org.slf4j:slf4j-api:1.7.32 -> 1.7.36
+|    |    |    |    +--- com.typesafe:config:1.4.1
+|    |    |    |    \--- com.netflix.spectator:spectator-api:1.0.6 (*)
+|    |    |    \--- com.netflix.spectator:spectator-reg-micrometer:1.0.6
+|    |    |         +--- org.slf4j:slf4j-api:1.7.32 -> 1.7.36
+|    |    |         +--- io.micrometer:micrometer-core:1.7.5 -> 1.9.17 (*)
+|    |    |         \--- com.netflix.spectator:spectator-api:1.0.6 (*)
+|    |    +--- com.google.guava:guava:33.0.0-jre (*)
+|    |    +--- org.apache.logging.log4j:log4j-api:2.20.0
+|    |    \--- org.slf4j:slf4j-api:1.7.36
+|    +--- com.fasterxml.jackson.core:jackson-databind:2.13.5 (*)
+|    +--- org.apache.httpcomponents:httpclient:4.5.14 (*)
+|    +--- org.springframework.boot:spring-boot-autoconfigure:2.7.18 (*)
+|    +--- org.springframework.security:spring-security-core:5.7.11 (*)
+|    \--- org.apache.logging.log4j:log4j-api:2.20.0
++--- io.spinnaker.kork:kork-core -> 7.254.0 (*)
++--- io.spinnaker.kork:kork-jedis -> 7.254.0
+|    +--- org.springframework.boot:spring-boot-starter-actuator:2.7.18 (*)
+|    +--- redis.clients:jedis:3.8.0
+|    |    +--- org.slf4j:slf4j-api:1.7.30 -> 1.7.36
+|    |    \--- org.apache.commons:commons-pool2:2.11.1
+|    +--- io.spinnaker.kork:kork-core:7.254.0 (*)
+|    +--- com.netflix.spectator:spectator-api:1.0.6 (*)
+|    +--- com.fasterxml.jackson.core:jackson-databind:2.13.5 (*)
+|    \--- org.apache.commons:commons-lang3:3.12.0
++--- io.spinnaker.fiat:fiat-core:1.57.0
+|    +--- org.springframework.security:spring-security-core:5.7.11 (*)
+|    +--- com.fasterxml.jackson.core:jackson-annotations:2.13.5 (*)
+|    +--- com.google.code.findbugs:jsr305:3.0.2
+|    +--- io.spinnaker.kork:kork-retrofit:7.254.0
+|    |    +--- com.squareup.retrofit:retrofit:1.9.0
+|    |    |    \--- com.google.code.gson:gson:2.3.1 -> 2.9.1
+|    |    +--- com.squareup.retrofit2:retrofit:2.8.1
+|    |    |    \--- com.squareup.okhttp3:okhttp:3.14.7 -> 4.9.3
+|    |    |         +--- com.squareup.okio:okio:2.8.0
+|    |    |         |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 -> 1.6.21 (*)
+|    |    |         |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0 -> 1.6.21
+|    |    |         \--- org.jetbrains.kotlin:kotlin-stdlib:1.4.10 -> 1.6.21 (*)
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21 (*)
+|    |    +--- io.spinnaker.kork:kork-web:7.254.0
+|    |    |    +--- io.spinnaker.kork:kork-core:7.254.0 (*)
+|    |    |    +--- io.spinnaker.kork:kork-crypto:7.254.0
+|    |    |    |    +--- io.spinnaker.kork:kork-annotations:7.254.0 (*)
+|    |    |    |    +--- org.bouncycastle:bcpkix-jdk18on:1.77
+|    |    |    |    |    +--- org.bouncycastle:bcprov-jdk18on:1.77
+|    |    |    |    |    \--- org.bouncycastle:bcutil-jdk18on:1.77
+|    |    |    |    |         \--- org.bouncycastle:bcprov-jdk18on:1.77
+|    |    |    |    \--- org.springframework:spring-aop:5.3.31 (*)
+|    |    |    +--- io.spinnaker.kork:kork-security:7.254.0 (*)
+|    |    |    +--- io.spinnaker.kork:kork-exceptions:7.254.0 (*)
+|    |    |    +--- org.apache.groovy:groovy:4.0.15 (*)
+|    |    |    +--- org.springframework.boot:spring-boot-starter-web:2.7.18
+|    |    |    |    +--- org.springframework.boot:spring-boot-starter:2.7.18 (*)
+|    |    |    |    +--- org.springframework.boot:spring-boot-starter-json:2.7.18
+|    |    |    |    |    +--- org.springframework.boot:spring-boot-starter:2.7.18 (*)
+|    |    |    |    |    +--- org.springframework:spring-web:5.3.31
+|    |    |    |    |    |    +--- org.springframework:spring-beans:5.3.31 (*)
+|    |    |    |    |    |    \--- org.springframework:spring-core:5.3.31 (*)
+|    |    |    |    |    +--- com.fasterxml.jackson.core:jackson-databind:2.13.5 (*)
+|    |    |    |    |    +--- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.13.5
+|    |    |    |    |    |    +--- com.fasterxml.jackson.core:jackson-core:2.13.5 (*)
+|    |    |    |    |    |    +--- com.fasterxml.jackson.core:jackson-databind:2.13.5 (*)
+|    |    |    |    |    |    \--- com.fasterxml.jackson:jackson-bom:2.13.5 (*)
+|    |    |    |    |    +--- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.5 (*)
+|    |    |    |    |    \--- com.fasterxml.jackson.module:jackson-module-parameter-names:2.13.5
+|    |    |    |    |         +--- com.fasterxml.jackson.core:jackson-core:2.13.5 (*)
+|    |    |    |    |         +--- com.fasterxml.jackson.core:jackson-databind:2.13.5 (*)
+|    |    |    |    |         \--- com.fasterxml.jackson:jackson-bom:2.13.5 (*)
+|    |    |    |    +--- org.springframework.boot:spring-boot-starter-tomcat:2.7.18
+|    |    |    |    |    +--- jakarta.annotation:jakarta.annotation-api:1.3.5
+|    |    |    |    |    +--- org.apache.tomcat.embed:tomcat-embed-core:9.0.83
+|    |    |    |    |    +--- org.apache.tomcat.embed:tomcat-embed-el:9.0.83
+|    |    |    |    |    \--- org.apache.tomcat.embed:tomcat-embed-websocket:9.0.83
+|    |    |    |    |         \--- org.apache.tomcat.embed:tomcat-embed-core:9.0.83
+|    |    |    |    +--- org.springframework:spring-web:5.3.31 (*)
+|    |    |    |    \--- org.springframework:spring-webmvc:5.3.31
+|    |    |    |         +--- org.springframework:spring-aop:5.3.31 (*)
+|    |    |    |         +--- org.springframework:spring-beans:5.3.31 (*)
+|    |    |    |         +--- org.springframework:spring-context:5.3.31 (*)
+|    |    |    |         +--- org.springframework:spring-core:5.3.31 (*)
+|    |    |    |         +--- org.springframework:spring-expression:5.3.31 (*)
+|    |    |    |         \--- org.springframework:spring-web:5.3.31 (*)
+|    |    |    +--- org.springframework.boot:spring-boot-starter-webflux:2.7.18
+|    |    |    |    +--- org.springframework.boot:spring-boot-starter:2.7.18 (*)
+|    |    |    |    +--- org.springframework.boot:spring-boot-starter-json:2.7.18 (*)
+|    |    |    |    +--- org.springframework.boot:spring-boot-starter-reactor-netty:2.7.18
+|    |    |    |    |    \--- io.projectreactor.netty:reactor-netty-http:1.0.39
+|    |    |    |    |         +--- io.netty:netty-codec-http:4.1.101.Final (*)
+|    |    |    |    |         +--- io.netty:netty-codec-http2:4.1.101.Final (*)
+|    |    |    |    |         +--- io.netty:netty-resolver-dns:4.1.101.Final
+|    |    |    |    |         |    +--- io.netty:netty-common:4.1.101.Final
+|    |    |    |    |         |    +--- io.netty:netty-buffer:4.1.101.Final (*)
+|    |    |    |    |         |    +--- io.netty:netty-resolver:4.1.101.Final (*)
+|    |    |    |    |         |    +--- io.netty:netty-transport:4.1.101.Final (*)
+|    |    |    |    |         |    +--- io.netty:netty-codec:4.1.101.Final (*)
+|    |    |    |    |         |    +--- io.netty:netty-codec-dns:4.1.101.Final
+|    |    |    |    |         |    |    +--- io.netty:netty-common:4.1.101.Final
+|    |    |    |    |         |    |    +--- io.netty:netty-buffer:4.1.101.Final (*)
+|    |    |    |    |         |    |    +--- io.netty:netty-transport:4.1.101.Final (*)
+|    |    |    |    |         |    |    \--- io.netty:netty-codec:4.1.101.Final (*)
+|    |    |    |    |         |    \--- io.netty:netty-handler:4.1.101.Final (*)
+|    |    |    |    |         +--- io.netty:netty-resolver-dns-native-macos:4.1.101.Final
+|    |    |    |    |         |    \--- io.netty:netty-resolver-dns-classes-macos:4.1.101.Final
+|    |    |    |    |         |         +--- io.netty:netty-common:4.1.101.Final
+|    |    |    |    |         |         +--- io.netty:netty-resolver-dns:4.1.101.Final (*)
+|    |    |    |    |         |         \--- io.netty:netty-transport-native-unix-common:4.1.101.Final (*)
+|    |    |    |    |         +--- io.netty:netty-transport-native-epoll:4.1.101.Final
+|    |    |    |    |         |    +--- io.netty:netty-common:4.1.101.Final
+|    |    |    |    |         |    +--- io.netty:netty-buffer:4.1.101.Final (*)
+|    |    |    |    |         |    +--- io.netty:netty-transport:4.1.101.Final (*)
+|    |    |    |    |         |    +--- io.netty:netty-transport-native-unix-common:4.1.101.Final (*)
+|    |    |    |    |         |    \--- io.netty:netty-transport-classes-epoll:4.1.101.Final (*)
+|    |    |    |    |         +--- io.projectreactor.netty:reactor-netty-core:1.0.39
+|    |    |    |    |         |    +--- io.netty:netty-handler:4.1.101.Final (*)
+|    |    |    |    |         |    +--- io.netty:netty-handler-proxy:4.1.101.Final
+|    |    |    |    |         |    |    +--- io.netty:netty-common:4.1.101.Final
+|    |    |    |    |         |    |    +--- io.netty:netty-buffer:4.1.101.Final (*)
+|    |    |    |    |         |    |    +--- io.netty:netty-transport:4.1.101.Final (*)
+|    |    |    |    |         |    |    +--- io.netty:netty-codec:4.1.101.Final (*)
+|    |    |    |    |         |    |    +--- io.netty:netty-codec-socks:4.1.101.Final
+|    |    |    |    |         |    |    |    +--- io.netty:netty-common:4.1.101.Final
+|    |    |    |    |         |    |    |    +--- io.netty:netty-buffer:4.1.101.Final (*)
+|    |    |    |    |         |    |    |    +--- io.netty:netty-transport:4.1.101.Final (*)
+|    |    |    |    |         |    |    |    \--- io.netty:netty-codec:4.1.101.Final (*)
+|    |    |    |    |         |    |    \--- io.netty:netty-codec-http:4.1.101.Final (*)
+|    |    |    |    |         |    +--- io.netty:netty-resolver-dns:4.1.101.Final (*)
+|    |    |    |    |         |    +--- io.netty:netty-resolver-dns-native-macos:4.1.101.Final (*)
+|    |    |    |    |         |    +--- io.netty:netty-transport-native-epoll:4.1.101.Final (*)
+|    |    |    |    |         |    \--- io.projectreactor:reactor-core:3.4.34
+|    |    |    |    |         |         \--- org.reactivestreams:reactive-streams:1.0.4
+|    |    |    |    |         \--- io.projectreactor:reactor-core:3.4.34 (*)
+|    |    |    |    +--- org.springframework:spring-web:5.3.31 (*)
+|    |    |    |    \--- org.springframework:spring-webflux:5.3.31
+|    |    |    |         +--- org.springframework:spring-beans:5.3.31 (*)
+|    |    |    |         +--- org.springframework:spring-core:5.3.31 (*)
+|    |    |    |         +--- org.springframework:spring-web:5.3.31 (*)
+|    |    |    |         \--- io.projectreactor:reactor-core:3.4.34 (*)
+|    |    |    +--- org.springframework.boot:spring-boot-starter-security:2.7.18
+|    |    |    |    +--- org.springframework.boot:spring-boot-starter:2.7.18 (*)
+|    |    |    |    +--- org.springframework:spring-aop:5.3.31 (*)
+|    |    |    |    +--- org.springframework.security:spring-security-config:5.7.11
+|    |    |    |    |    +--- org.springframework.security:spring-security-core:5.7.11 (*)
+|    |    |    |    |    +--- org.springframework:spring-aop:5.3.29 -> 5.3.31 (*)
+|    |    |    |    |    +--- org.springframework:spring-beans:5.3.29 -> 5.3.31 (*)
+|    |    |    |    |    +--- org.springframework:spring-context:5.3.29 -> 5.3.31 (*)
+|    |    |    |    |    \--- org.springframework:spring-core:5.3.29 -> 5.3.31 (*)
+|    |    |    |    \--- org.springframework.security:spring-security-web:5.7.11
+|    |    |    |         +--- org.springframework.security:spring-security-core:5.7.11 (*)
+|    |    |    |         +--- org.springframework:spring-core:5.3.29 -> 5.3.31 (*)
+|    |    |    |         +--- org.springframework:spring-aop:5.3.29 -> 5.3.31 (*)
+|    |    |    |         +--- org.springframework:spring-beans:5.3.29 -> 5.3.31 (*)
+|    |    |    |         +--- org.springframework:spring-context:5.3.29 -> 5.3.31 (*)
+|    |    |    |         +--- org.springframework:spring-expression:5.3.29 -> 5.3.31 (*)
+|    |    |    |         \--- org.springframework:spring-web:5.3.29 -> 5.3.31 (*)
+|    |    |    +--- org.springframework.security:spring-security-core:5.7.11 (*)
+|    |    |    +--- com.netflix.spectator:spectator-api:1.0.6 (*)
+|    |    |    +--- com.fasterxml.jackson.core:jackson-annotations:2.13.5 (*)
+|    |    |    +--- com.squareup.okhttp3:logging-interceptor:4.9.3
+|    |    |    |    +--- com.squareup.okhttp3:okhttp:4.9.3 (*)
+|    |    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.10 -> 1.6.21 (*)
+|    |    |    +--- com.squareup.okhttp3:okhttp:4.9.3 (*)
+|    |    |    +--- com.squareup.retrofit:retrofit:1.9.0 (*)
+|    |    |    +--- com.google.guava:guava:33.0.0-jre (*)
+|    |    |    +--- javax.inject:javax.inject:1
+|    |    |    +--- com.netflix.spectator:spectator-web-spring:1.0.6
+|    |    |    +--- io.zipkin.brave:brave-instrumentation-okhttp3:5.12.3
+|    |    |    |    +--- io.zipkin.brave:brave-instrumentation-http:5.12.3
+|    |    |    |    |    \--- io.zipkin.brave:brave:5.12.3
+|    |    |    |    |         \--- io.zipkin.reporter2:zipkin-reporter-brave:2.15.0
+|    |    |    |    |              +--- io.zipkin.reporter2:zipkin-reporter:2.15.0
+|    |    |    |    |              |    \--- io.zipkin.zipkin2:zipkin:2.21.1
+|    |    |    |    |              \--- io.zipkin.zipkin2:zipkin:2.21.1
+|    |    |    |    \--- io.zipkin.brave:brave:5.12.3 (*)
+|    |    |    \--- org.hibernate.validator:hibernate-validator:6.2.5.Final
+|    |    |         +--- jakarta.validation:jakarta.validation-api:2.0.2
+|    |    |         +--- org.jboss.logging:jboss-logging:3.4.1.Final -> 3.4.3.Final
+|    |    |         \--- com.fasterxml:classmate:1.5.1
+|    |    +--- com.jakewharton.retrofit:retrofit1-okhttp3-client:1.1.0
+|    |    |    +--- com.squareup.retrofit:retrofit:1.9.0 (*)
+|    |    |    \--- com.squareup.okhttp3:okhttp:3.2.0 -> 4.9.3 (*)
+|    |    +--- com.squareup.retrofit:converter-jackson:1.9.0
+|    |    |    +--- com.squareup.retrofit:retrofit:1.9.0 (*)
+|    |    |    \--- com.fasterxml.jackson.core:jackson-databind:2.4.3 -> 2.13.5 (*)
+|    |    +--- io.zipkin.brave:brave-instrumentation-okhttp3:5.12.3 (*)
+|    |    +--- com.squareup.retrofit2:converter-jackson:2.8.1
+|    |    |    +--- com.squareup.retrofit2:retrofit:2.8.1 (*)
+|    |    |    \--- com.fasterxml.jackson.core:jackson-databind:2.10.1 -> 2.13.5 (*)
+|    |    +--- com.squareup.okhttp3:logging-interceptor:4.9.3 (*)
+|    |    \--- com.google.guava:guava:33.0.0-jre (*)
+|    +--- org.slf4j:slf4j-api:1.7.36
+|    +--- org.springframework:spring-core:5.3.31 (*)
+|    \--- org.springframework.boot:spring-boot-starter-web:2.7.18 (*)
++--- javax.validation:validation-api -> 2.0.1.Final
++--- com.squareup.retrofit2:retrofit -> 2.8.1 (*)
++--- com.squareup.retrofit2:converter-jackson -> 2.8.1 (*)
++--- org.springframework.boot:spring-boot-starter-test -> 2.7.18
+|    +--- org.springframework.boot:spring-boot-starter:2.7.18 (*)
+|    +--- org.springframework.boot:spring-boot-test:2.7.18
+|    |    \--- org.springframework.boot:spring-boot:2.7.18 (*)
+|    +--- org.springframework.boot:spring-boot-test-autoconfigure:2.7.18
+|    |    +--- org.springframework.boot:spring-boot:2.7.18 (*)
+|    |    +--- org.springframework.boot:spring-boot-test:2.7.18 (*)
+|    |    \--- org.springframework.boot:spring-boot-autoconfigure:2.7.18 (*)
+|    +--- com.jayway.jsonpath:json-path:2.7.0 -> 2.9.0
+|    |    +--- net.minidev:json-smart:2.5.0 -> 2.4.11
+|    |    |    \--- net.minidev:accessors-smart:2.4.11
+|    |    |         \--- org.ow2.asm:asm:9.3
+|    |    \--- org.slf4j:slf4j-api:2.0.11 -> 1.7.36
+|    +--- jakarta.xml.bind:jakarta.xml.bind-api:2.3.3
+|    |    \--- jakarta.activation:jakarta.activation-api:1.2.2
+|    +--- org.assertj:assertj-core:3.22.0
+|    +--- org.hamcrest:hamcrest:2.2
+|    +--- org.junit.jupiter:junit-jupiter:5.8.2 -> 5.9.0
+|    |    +--- org.junit:junit-bom:5.9.0
+|    |    |    +--- org.junit.jupiter:junit-jupiter:5.9.0 (c)
+|    |    |    +--- org.junit.jupiter:junit-jupiter-api:5.9.0 (c)
+|    |    |    +--- org.junit.jupiter:junit-jupiter-engine:5.9.0 (c)
+|    |    |    +--- org.junit.platform:junit-platform-commons:1.9.0 (c)
+|    |    |    +--- org.junit.platform:junit-platform-engine:1.9.0 (c)
+|    |    |    +--- org.junit.vintage:junit-vintage-engine:5.9.0 (c)
+|    |    |    \--- org.junit.jupiter:junit-jupiter-params:5.9.0 (c)
+|    |    +--- org.junit.jupiter:junit-jupiter-api:5.9.0
+|    |    |    +--- org.junit:junit-bom:5.9.0 (*)
+|    |    |    +--- org.opentest4j:opentest4j:1.2.0
+|    |    |    \--- org.junit.platform:junit-platform-commons:1.9.0
+|    |    |         \--- org.junit:junit-bom:5.9.0 (*)
+|    |    +--- org.junit.jupiter:junit-jupiter-params:5.9.0
+|    |    |    +--- org.junit:junit-bom:5.9.0 (*)
+|    |    |    \--- org.junit.jupiter:junit-jupiter-api:5.9.0 (*)
+|    |    \--- org.junit.jupiter:junit-jupiter-engine:5.9.0
+|    |         +--- org.junit:junit-bom:5.9.0 (*)
+|    |         +--- org.junit.platform:junit-platform-engine:1.9.0
+|    |         |    +--- org.junit:junit-bom:5.9.0 (*)
+|    |         |    +--- org.opentest4j:opentest4j:1.2.0
+|    |         |    \--- org.junit.platform:junit-platform-commons:1.9.0 (*)
+|    |         \--- org.junit.jupiter:junit-jupiter-api:5.9.0 (*)
+|    +--- org.mockito:mockito-core:4.5.1
+|    |    +--- net.bytebuddy:byte-buddy:1.12.9 -> 1.12.23
+|    |    +--- net.bytebuddy:byte-buddy-agent:1.12.9 -> 1.12.23
+|    |    \--- org.objenesis:objenesis:3.2 -> 2.5.1
+|    +--- org.mockito:mockito-junit-jupiter:4.5.1
+|    |    +--- org.mockito:mockito-core:4.5.1 (*)
+|    |    \--- org.junit.jupiter:junit-jupiter-api:5.8.2 -> 5.9.0 (*)
+|    +--- org.skyscreamer:jsonassert:1.5.1
+|    |    \--- com.vaadin.external.google:android-json:0.0.20131108.vaadin1
+|    +--- org.springframework:spring-core:5.3.31 (*)
+|    +--- org.springframework:spring-test:5.3.31
+|    |    \--- org.springframework:spring-core:5.3.31 (*)
+|    \--- org.xmlunit:xmlunit-core:2.9.1
++--- org.spockframework:spock-core -> 2.3-groovy-4.0
+|    +--- org.apache.groovy:groovy:4.0.4 -> 4.0.15 (*)
+|    +--- org.junit:junit-bom:5.9.0 (*)
+|    +--- org.junit.platform:junit-platform-engine -> 1.9.0 (*)
+|    \--- org.hamcrest:hamcrest:2.2
++--- org.spockframework:spock-spring -> 2.3-groovy-4.0
+|    +--- org.apache.groovy:groovy:4.0.4 -> 4.0.15 (*)
+|    \--- org.spockframework:spock-core:2.3-groovy-4.0 (*)
++--- org.springframework:spring-test -> 5.3.31 (*)
++--- org.hamcrest:hamcrest-core -> 2.2
+|    \--- org.hamcrest:hamcrest:2.2
++--- org.junit.jupiter:junit-jupiter-api -> 5.9.0 (*)
++--- org.assertj:assertj-core -> 3.22.0
++--- com.netflix.spectator:spectator-reg-micrometer -> 1.0.6 (*)
++--- io.spinnaker.kork:kork-retrofit -> 7.254.0 (*)
++--- com.squareup.okhttp3:mockwebserver -> 4.9.3
+|    +--- com.squareup.okhttp3:okhttp:4.9.3 (*)
+|    +--- junit:junit:4.13 -> 4.13.2
+|    |    \--- org.hamcrest:hamcrest-core:1.3 -> 2.2 (*)
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.10 -> 1.6.21 (*)
++--- cglib:cglib-nodep -> 3.3.0
++--- org.objenesis:objenesis -> 2.5.1
++--- org.junit.vintage:junit-vintage-engine -> 5.9.0
+|    +--- org.junit:junit-bom:5.9.0 (*)
+|    +--- org.junit.platform:junit-platform-engine:1.9.0 (*)
+|    \--- junit:junit:4.13.2 (*)
+\--- org.junit.jupiter:junit-jupiter-engine -> 5.9.0 (*)
+
+testRuntimeOnly - Runtime only dependencies for source set 'test'. (n)
++--- cglib:cglib-nodep (n)
++--- org.objenesis:objenesis (n)
++--- org.junit.vintage:junit-vintage-engine (n)
+\--- org.junit.jupiter:junit-jupiter-engine (n)
+
+(c) - dependency constraint
+(*) - dependencies omitted (listed previously)
+
+(n) - Not resolved (configuration is not meant to be resolved)
+
+A web-based, searchable dependency report is available by adding the --scan option.
+
+BUILD SUCCESSFUL in 551ms
+1 actionable task: 1 executed
