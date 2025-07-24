@@ -2,13 +2,9 @@ import json
 import re
 import sys
 
-
 CONFIG_LINE_RE = re.compile(r'^[A-Za-z].* - .*')
-# matches lines starting with optional pipes/spaces/plus/backslashes and then +--- or \--- or --- etc.
 DEP_LINE_RE = re.compile(r'^\s*[\|\s\\+]*[+\\-]---\s+(.+)$')
-# to compute depth, capture the prefix before the +--- / \---
 DEP_PREFIX_RE = re.compile(r'^(\s*[\|\s\\+]*?)[+\\-]---')
-
 
 def parse_gradle_dependencies(file_path):
     try:
@@ -20,13 +16,10 @@ def parse_gradle_dependencies(file_path):
 
     configurations = []
     current_config = None
-    stack = []  # stack of {"depth": int, "node": dict}
+    stack = []  
 
     def create_dependency(notation_line):
-        """
-        Turn one Gradle notation line (already trimmed after the --- marker)
-        into a dict {group,name,version,...}.
-        """
+
         constraint = "(c)" in notation_line
         omitted = "(*)" in notation_line
         not_resolved = "(n)" in notation_line
@@ -39,7 +32,7 @@ def parse_gradle_dependencies(file_path):
         )
 
         if '->' in notation_line:
-            # example: com.foo:bar -> 1.2.3
+
             left, right = notation_line.split('->', 1)
             group_name = left.strip()
             version = right.strip()
@@ -51,7 +44,7 @@ def parse_gradle_dependencies(file_path):
             parts = notation_line.split(':')
             if len(parts) >= 3:
                 group, name, version = parts[:3]
-            elif len(parts) == 2:  # no explicit version shown
+            elif len(parts) == 2: 
                 group, name = parts
                 version = "unspecified"
             else:
@@ -71,19 +64,12 @@ def parse_gradle_dependencies(file_path):
         return dep
 
     def get_depth(line):
-        """
-        Compute the nesting depth of a dependency line from its visual prefix.
-        Gradle typically uses groups like '|    ' (4–5 chars). We'll normalize
-        all non-space tree chars to spaces and divide by 4 to be tolerant.
-        """
+
         m = DEP_PREFIX_RE.match(line)
         if not m:
             return 0
         prefix = m.group(1)
-        # normalize anything that is not a space to a space, then count spaces
         norm = re.sub(r'[|\\+]', ' ', prefix)
-        # collapse consecutive spaces to keep it simple, but the important part
-        # is to use a consistent divisor (4 is usually safe).
         return len(norm) // 4
 
     for raw_line in lines:
@@ -105,42 +91,31 @@ def parse_gradle_dependencies(file_path):
             configurations.append(current_config)
             stack.clear()
             continue
-
         # ---- dependency line ---------------------------------------------------
         m = DEP_LINE_RE.match(raw_line)
         if not m:
             continue  # ignore anything else
-
         if current_config is None:
-            # Safety: if somehow a dependency appears before any configuration line
-            continue
 
+            continue
         notation = m.group(1).strip()
         dep = create_dependency(notation)
         if not dep:
             continue
-
         depth = get_depth(raw_line)
-
-        # pop until we are at the parent depth
         while stack and stack[-1]["depth"] >= depth:
             stack.pop()
-
         if stack:
             parent = stack[-1]["node"]
             parent.setdefault("dependencies", []).append(dep)
         else:
             current_config["dependencies"].append(dep)
-
         stack.append({"depth": depth, "node": dep})
-
     return {"configurations": configurations}
-
-
 # --- Run ---
 if __name__ == '__main__':
-    input_file = sys.argv[1] if len(sys.argv) > 1 else "depend.txt"
-    output_file = sys.argv[2] if len(sys.argv) > 2 else "depend.json"
+    input_file = sys.argv[1] if len(sys.argv) > 1 else "igor-web.txt"
+    output_file = sys.argv[2] if len(sys.argv) > 2 else "igor-web-depend.json"
 
     result = parse_gradle_dependencies(input_file)
 
