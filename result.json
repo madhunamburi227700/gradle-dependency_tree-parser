@@ -1,0 +1,402 @@
+[
+  {
+    "target_dependency": "software.amazon.awssdk:endpoints-spi:2.23.7",
+    "total_occurrences": 16,
+    "found_in_configurations": [
+      "compileClasspath",
+      "runtimeClasspath",
+      "testCompileClasspath",
+      "testRuntimeClasspath"
+    ],
+    "results": [
+      {
+        "configuration": "compileClasspath",
+        "occurrences": 4,
+        "chains": [
+          {
+            "id": "io.spinnaker.kork:kork-artifacts:7.254.0",
+            "dependencies": [
+              {
+                "id": "software.amazon.awssdk:s3:2.23.7",
+                "dependencies": [
+                  {
+                    "id": "software.amazon.awssdk:aws-xml-protocol:2.23.7",
+                    "dependencies": [
+                      {
+                        "id": "software.amazon.awssdk:aws-query-protocol:2.23.7",
+                        "dependencies": [
+                          {
+                            "id": "software.amazon.awssdk:protocol-core:2.23.7",
+                            "dependencies": [
+                              {
+                                "id": "software.amazon.awssdk:sdk-core:2.23.7",
+                                "dependencies": [
+                                  {
+                                    "id": "software.amazon.awssdk:endpoints-spi:2.23.7",
+                                    "dependencies": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "io.spinnaker.kork:kork-artifacts:7.254.0",
+            "dependencies": [
+              {
+                "id": "software.amazon.awssdk:s3:2.23.7",
+                "dependencies": [
+                  {
+                    "id": "software.amazon.awssdk:aws-xml-protocol:2.23.7",
+                    "dependencies": [
+                      {
+                        "id": "software.amazon.awssdk:aws-query-protocol:2.23.7",
+                        "dependencies": [
+                          {
+                            "id": "software.amazon.awssdk:aws-core:2.23.7",
+                            "dependencies": [
+                              {
+                                "id": "software.amazon.awssdk:endpoints-spi:2.23.7",
+                                "dependencies": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "io.spinnaker.kork:kork-artifacts:7.254.0",
+            "dependencies": [
+              {
+                "id": "software.amazon.awssdk:s3:2.23.7",
+                "dependencies": [
+                  {
+                    "id": "software.amazon.awssdk:endpoints-spi:2.23.7",
+                    "dependencies": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "io.spinnaker.kork:kork-artifacts:7.254.0",
+            "dependencies": [
+              {
+                "id": "software.amazon.awssdk:sts:2.23.7",
+                "dependencies": [
+                  {
+                    "id": "software.amazon.awssdk:endpoints-spi:2.23.7",
+                    "dependencies": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "configuration": "runtimeClasspath",
+        "occurrences": 4,
+        "chains": [
+          {
+            "id": "io.spinnaker.kork:kork-artifacts:7.254.0",
+            "dependencies": [
+              {
+                "id": "software.amazon.awssdk:s3:2.23.7",
+                "dependencies": [
+                  {
+                    "id": "software.amazon.awssdk:aws-xml-protocol:2.23.7",
+                    "dependencies": [
+                      {
+                        "id": "software.amazon.awssdk:aws-query-protocol:2.23.7",
+                        "dependencies": [
+                          {
+                            "id": "software.amazon.awssdk:protocol-core:2.23.7",
+                            "dependencies": [
+                              {
+                                "id": "software.amazon.awssdk:sdk-core:2.23.7",
+                                "dependencies": [
+                                  {
+                                    "id": "software.amazon.awssdk:endpoints-spi:2.23.7",
+                                    "dependencies": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "io.spinnaker.kork:kork-artifacts:7.254.0",
+            "dependencies": [
+              {
+                "id": "software.amazon.awssdk:s3:2.23.7",
+                "dependencies": [
+                  {
+                    "id": "software.amazon.awssdk:aws-xml-protocol:2.23.7",
+                    "dependencies": [
+                      {
+                        "id": "software.amazon.awssdk:aws-query-protocol:2.23.7",
+                        "dependencies": [
+                          {
+                            "id": "software.amazon.awssdk:aws-core:2.23.7",
+                            "dependencies": [
+                              {
+                                "id": "software.amazon.awssdk:endpoints-spi:2.23.7",
+                                "dependencies": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "io.spinnaker.kork:kork-artifacts:7.254.0",
+            "dependencies": [
+              {
+                "id": "software.amazon.awssdk:s3:2.23.7",
+                "dependencies": [
+                  {
+                    "id": "software.amazon.awssdk:endpoints-spi:2.23.7",
+                    "dependencies": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "io.spinnaker.kork:kork-artifacts:7.254.0",
+            "dependencies": [
+              {
+                "id": "software.amazon.awssdk:sts:2.23.7",
+                "dependencies": [
+                  {
+                    "id": "software.amazon.awssdk:endpoints-spi:2.23.7",
+                    "dependencies": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "configuration": "testCompileClasspath",
+        "occurrences": 4,
+        "chains": [
+          {
+            "id": "io.spinnaker.kork:kork-artifacts:7.254.0",
+            "dependencies": [
+              {
+                "id": "software.amazon.awssdk:s3:2.23.7",
+                "dependencies": [
+                  {
+                    "id": "software.amazon.awssdk:aws-xml-protocol:2.23.7",
+                    "dependencies": [
+                      {
+                        "id": "software.amazon.awssdk:aws-query-protocol:2.23.7",
+                        "dependencies": [
+                          {
+                            "id": "software.amazon.awssdk:protocol-core:2.23.7",
+                            "dependencies": [
+                              {
+                                "id": "software.amazon.awssdk:sdk-core:2.23.7",
+                                "dependencies": [
+                                  {
+                                    "id": "software.amazon.awssdk:endpoints-spi:2.23.7",
+                                    "dependencies": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "io.spinnaker.kork:kork-artifacts:7.254.0",
+            "dependencies": [
+              {
+                "id": "software.amazon.awssdk:s3:2.23.7",
+                "dependencies": [
+                  {
+                    "id": "software.amazon.awssdk:aws-xml-protocol:2.23.7",
+                    "dependencies": [
+                      {
+                        "id": "software.amazon.awssdk:aws-query-protocol:2.23.7",
+                        "dependencies": [
+                          {
+                            "id": "software.amazon.awssdk:aws-core:2.23.7",
+                            "dependencies": [
+                              {
+                                "id": "software.amazon.awssdk:endpoints-spi:2.23.7",
+                                "dependencies": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "io.spinnaker.kork:kork-artifacts:7.254.0",
+            "dependencies": [
+              {
+                "id": "software.amazon.awssdk:s3:2.23.7",
+                "dependencies": [
+                  {
+                    "id": "software.amazon.awssdk:endpoints-spi:2.23.7",
+                    "dependencies": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "io.spinnaker.kork:kork-artifacts:7.254.0",
+            "dependencies": [
+              {
+                "id": "software.amazon.awssdk:sts:2.23.7",
+                "dependencies": [
+                  {
+                    "id": "software.amazon.awssdk:endpoints-spi:2.23.7",
+                    "dependencies": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "configuration": "testRuntimeClasspath",
+        "occurrences": 4,
+        "chains": [
+          {
+            "id": "io.spinnaker.kork:kork-artifacts:7.254.0",
+            "dependencies": [
+              {
+                "id": "software.amazon.awssdk:s3:2.23.7",
+                "dependencies": [
+                  {
+                    "id": "software.amazon.awssdk:aws-xml-protocol:2.23.7",
+                    "dependencies": [
+                      {
+                        "id": "software.amazon.awssdk:aws-query-protocol:2.23.7",
+                        "dependencies": [
+                          {
+                            "id": "software.amazon.awssdk:protocol-core:2.23.7",
+                            "dependencies": [
+                              {
+                                "id": "software.amazon.awssdk:sdk-core:2.23.7",
+                                "dependencies": [
+                                  {
+                                    "id": "software.amazon.awssdk:endpoints-spi:2.23.7",
+                                    "dependencies": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "io.spinnaker.kork:kork-artifacts:7.254.0",
+            "dependencies": [
+              {
+                "id": "software.amazon.awssdk:s3:2.23.7",
+                "dependencies": [
+                  {
+                    "id": "software.amazon.awssdk:aws-xml-protocol:2.23.7",
+                    "dependencies": [
+                      {
+                        "id": "software.amazon.awssdk:aws-query-protocol:2.23.7",
+                        "dependencies": [
+                          {
+                            "id": "software.amazon.awssdk:aws-core:2.23.7",
+                            "dependencies": [
+                              {
+                                "id": "software.amazon.awssdk:endpoints-spi:2.23.7",
+                                "dependencies": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "io.spinnaker.kork:kork-artifacts:7.254.0",
+            "dependencies": [
+              {
+                "id": "software.amazon.awssdk:s3:2.23.7",
+                "dependencies": [
+                  {
+                    "id": "software.amazon.awssdk:endpoints-spi:2.23.7",
+                    "dependencies": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "io.spinnaker.kork:kork-artifacts:7.254.0",
+            "dependencies": [
+              {
+                "id": "software.amazon.awssdk:sts:2.23.7",
+                "dependencies": [
+                  {
+                    "id": "software.amazon.awssdk:endpoints-spi:2.23.7",
+                    "dependencies": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
